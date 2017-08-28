@@ -19,12 +19,20 @@ html, body {
   background-color: #f43f1a;
 }
 
+.one.selected {
+  background-color: #ffffff;
+}
+
 .two {
   margin: 0;
   display: inline-block;
   height: 100%;
   width: 25%;
   background-color: #f9dd4d;
+}
+
+.two.selected {
+  background-color: #ffffff;
 }
 
 .three {
@@ -35,10 +43,18 @@ html, body {
   background-color: #2dc66d;
 }
 
+.three.selected {
+  background-color: #ffffff;
+}
+
 .four {
   margin: 0;
   display: inline-block;
   height: 100%;
   width: 25%;
   background-color: #4286f4;
+}
+
+.four.selected {
+  background-color: #ffffff;
 }
