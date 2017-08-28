@@ -1,0 +1,87 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+#row-one, #row-two, #row-three, #row-four {
+  font-size: 0;
+  margin: 0;
+  height: 25%;
+  width: 100%;
+}
+
+@keyframes shape {
+    from {border-radius: 0;}
+    to {border-radius: 50px;}
+  }
+
+@keyframes color {
+  0%   {background-color: #f9dd4d;}
+  25%  {background-color: #ffa02d;}
+  50%  {background-color: #fc562d;}
+  100% {background-color: #fc2d56;}
+  }
+
+@keyframes shrink {
+  from {height: 100%;}
+  to {height: 50%;}
+  }
+
+@keyframes fade {
+  from {background-color: #4286f4;}
+  to {background-color: #ffffff;}
+  }
+
+.one {
+  margin: 0;
+  display: inline-block;
+  height: 100%;
+  width: 25%;
+  background-color: #f43f1a;
+}
+
+.one.selected {
+  background-color: #f43f1a;
+  animation-name: shape;
+  animation-duration: 4s;
+}
+
+.two {
+  margin: 0;
+  display: inline-block;
+  height: 100%;
+  width: 25%;
+  background-color: #f9dd4d;
+}
+
+.two.selected {
+  animation-name: color;
+  animation-duration: 4s;
+}
+
+.three {
+  margin: 0;
+  display: inline-block;
+  height: 100%;
+  width: 25%;
+  background-color: #2dc66d;
+}
+
+.three.selected {
+  animation-name: shrink;
+  animation-duration: 4s;
+}
+
+.four {
+  margin: 0;
+  display: inline-block;
+  height: 100%;
+  width: 25%;
+  background-color: #4286f4;
+}
+
+.four.selected {
+  animation-name: fade;
+  animation-duration: 4s;
+}
