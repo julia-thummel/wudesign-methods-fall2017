@@ -1,0 +1,11 @@
+{
+  "entrypoints" : [
+
+    {
+      "name" : "the obvious buttons",
+      "file" : "simple-buttons.html"
+    }
+
+
+  ]
+}
