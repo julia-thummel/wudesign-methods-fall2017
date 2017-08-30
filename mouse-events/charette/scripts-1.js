@@ -25,4 +25,14 @@ var handler = function() {}
         $(".five").click(function(){
           $(this).toggleClass("selected");
         });
+
+
+        $(".six").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+
+        $(".seven").click(function(){
+          $(this).toggleClass("selected");
+        });
     });

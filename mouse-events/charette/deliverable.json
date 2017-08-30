@@ -2,7 +2,7 @@
   "entrypoints" : [
 
     {
-      "name" : "the obvious buttons",
+      "name" : "buttons-1",
       "file" : "simple-buttons.html"
     }
 
