@@ -35,4 +35,29 @@ var handler = function() {}
         $(".seven").click(function(){
           $(this).toggleClass("selected");
         });
+
+
+        $(".eight").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+
+        $(".nine").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+
+        $(".ten").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+
+        $(".eleven").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+
+        $(".twelve").click(function(){
+          $(this).toggleClass("selected");
+        });
     });
