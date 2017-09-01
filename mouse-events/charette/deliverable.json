@@ -6,6 +6,11 @@
       "file" : "buttons-1.html"
     }
 
+    {
+      "name" : "buttons-2",
+      "file" : "buttons-2.html"
+    }
+
 
   ]
 }
