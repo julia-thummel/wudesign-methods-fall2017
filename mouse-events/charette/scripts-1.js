@@ -60,4 +60,20 @@ var handler = function() {}
         $(".twelve").click(function(){
           $(this).toggleClass("selected");
         });
+
+        $(".thirteen").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".fourteen").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".fifteen").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".sixteen").click(function(){
+          $(this).toggleClass("selected");
+        });
     });
