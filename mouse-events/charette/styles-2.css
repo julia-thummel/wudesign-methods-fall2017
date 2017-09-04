@@ -1,3 +1,449 @@
 body {
   margin: 50px;
 }
+
+#row {
+  margin: 10px;
+  width: 100%;
+  height: 100px;
+  font-size: 0;
+  display: inline-flex;
+  align-items: center;
+}
+
+#button {
+  margin: 1%;
+  width: 23%;
+  height: 98%;
+  display: inline-block;
+  text-align: center;
+}
+
+p {
+  position: relative;
+  top: 37%;
+  display: inline-flex;
+  align-items: center;
+  font-size: 14pt;
+  margin: 0;
+}
+
+
+.one {
+  background-color: #f46242;
+  display: inline-block;
+  width:60%;
+  height:100%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+
+
+.two {
+  background-color: #f9931d;
+  display: inline-block;
+  width:60%;
+  height:100%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+
+@keyframes five {
+  from {opacity: 1;}
+  to {opacity: 0;}
+  }
+
+.five {
+  background-color: #70b76e;
+  display: inline-block;
+  width:60%;
+  height:100%;
+  padding-left: 20%;
+  padding-right: 20%;
+  opacity: 100%;
+}
+
+.five.selected {
+  animation-name: five;
+  animation-duration: 5s;
+  opacity: 0;
+}
+
+
+
+.six {
+  background-color: #7bb4e5;
+  display: inline-block;
+  width:60%;
+  height:100%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.six.selected {
+  text-transform: uppercase;
+}
+
+
+
+.seven {
+  background-color: #8c8acc;
+  display: inline-block;
+  width:60%;
+  height:100%;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-weight: normal;
+}
+
+.seven.selected {
+  font-weight: bold;
+}
+
+
+
+.eight {
+  background-color: #dd4f60;
+  display: inline-block;
+  width:60%;
+  height:100%;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-decoration: none;
+}
+
+.textChangeOne {
+  text-decoration: none;
+}
+
+.textChangeOne.selected {
+  text-decoration: underline;
+}
+
+
+
+.nine {
+  background-color: #b6def9;
+  display: inline-block;
+  width:60%;
+  height:100%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.textChangeTwo {
+  color: black;
+}
+
+.textChangeTwo.selected {
+  animation-name: ten;
+  color: yellow;
+}
+
+
+
+.ten {
+  background-color: #ce3514;
+  display: inline-block;
+  width:60%;
+  height:100%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.ten.selected{
+  width: 100%;
+  height: 120%;
+}
+
+
+.eleven {
+  background-color: #c0ccb1;
+  display: inline-block;
+  width:60%;
+  height:100%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.eleven.selected {
+  padding-left: 50%;
+  padding-right: 50%;
+}
+
+.twelve {
+  background-color: #a3b9ba;
+  display: inline-block;
+  width:60%;
+  height:100%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.textChangeThree {
+  font-size: 14pt;
+}
+
+.textChangeThree.selected {
+  font-size: 18pt;
+}
+
+
+
+.thirteen {
+  background-color: #ffffff;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  box-sizing: border-box;
+  border: 10px solid #dbadd2;
+  border-radius: 100px;
+}
+
+.thirteen.selected {
+  animation-name: thirteen;
+  background-color: #dbadd2;
+}
+
+
+@keyframes fourteen {
+  from {border: 10px solid #4aa59c;}
+  to {border: 50px solid #4aa59c;}
+}
+
+.fourteen {
+  background-color: #ffffff;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  box-sizing: border-box;
+  border: 10px solid #4aa59c;
+  border-radius: 100px;
+}
+
+.fourteen.selected {
+  animation-name: fourteen;
+  animation-duration: 1s;
+  border: 50px solid #4aa59c;
+}
+
+
+@keyframes fifteen {
+  from {opacity: 1; bottom: 0;}
+  to {opacity: 0; bottom: 200px;}
+}
+
+.fifteen {
+  background-color: #ba706f;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  position: relative;
+}
+
+
+.fifteen.selected {
+  animation-name: fifteen;
+  animation-duration: 1s;
+  opacity: 0;
+  bottom: 200px;
+}
+
+@keyframes sixteen {
+  from {opacity: 1; width: 98px; height: 98px;}
+  to {opacity: 0; width: 50px; height: 50px;}
+  }
+
+.sixteen {
+  background-color: #ffffff;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  box-sizing: border-box;
+  border: 10px solid #a3100e;
+  border-radius: 100px;
+  position: relative;
+  }
+
+
+.sixteen.selected {
+  animation-name: sixteen;
+  animation-duration: .25s;
+  opacity: 0;
+  width: 50px;
+  height: 50px;
+}
+
+
+
+
+@keyframes seventeen {
+  0% {position: relative; left:0px; right: 0px;}
+  20% {position: relative; left:3px; right: 0px;}
+  40% {position: relative; left:0px; right: 3px;}
+  60% {position: relative; left:3px; right: 0px;}
+  80% {position: relative; left:0px; right: 3px;}
+  100% {position: relative; left:0px; right: 0px;}
+  }
+
+.seventeen {
+  background-color: #3961a0;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  position: relative;
+  }
+
+.seventeen.selected {
+  animation-name: seventeen;
+  animation-duration: .15s;
+}
+
+
+
+@keyframes eighteen {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+  }
+
+.eighteen {
+  background-color: #ffffff;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border: 10px dashed #3961a0;
+  box-sizing: border-box;
+  border-radius: 100px;
+  position: relative;
+  transform: rotate(0deg);
+  }
+
+.eighteen.selected {
+  animation-name: eighteen;
+  animation-duration: 1s;
+  transform: rotate(360deg);
+}
+
+
+@keyframes nineteen {
+  0% {transform: rotate(0deg); position: relative; bottom: 0px; left: 0px;}
+  100% {transform: rotate(360deg); position: relative; bottom: 800px; left: 800px;}
+  }
+
+.nineteen {
+  background-color: #ffffff;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border: 10px dashed #e84f47;
+  box-sizing: border-box;
+  border-radius: 100px;
+  position: relative;
+  transform: rotate(0deg);
+  }
+
+.nineteen.selected {
+  animation-name: nineteen;
+  animation-duration: 2s;
+  transform: rotate(360deg);
+  position: relative;
+  bottom: 800px;
+  left: 800px;
+}
+
+
+
+@keyframes twenty {
+  0% {border: 10px solid #4aa59c;}
+  50% {border: 50px solid #4aa59c;}
+  100% {border: 10px solid #4aa59c;}
+}
+
+.twenty {
+  background-color: #ffffff;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  box-sizing: border-box;
+  border: 10px solid #ddcb8d;
+  border-radius: 100px;
+}
+
+.twenty.selected {
+  animation-name: twenty;
+  animation-duration: 1s;
+  border: 10px solid #4aa59c;
+}
+
+
+.twentyone {
+  background-color: #ffffff;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  box-sizing: border-box;
+  border: 10px solid #5b4543;
+  border-radius: 100px;
+}
+
+
+.twentytwo {
+  background-color: #d3d3d1;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+}
+
+
+
+.twentythree {
+  background-color: #d7f4e3;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  opacity: 1;
+}
+
+.twentythree.selected {
+  animation-name: twenty;
+  animation-duration: 1s;
+  opacity: 1;
+
+}
+
+
+@keyframes twentyfour {
+  0% {opacity: 1;}
+  10% {opacity: 0;}
+  20% {opacity: 1;}
+  30% {opacity: 0;}
+  40% {opacity: 1;}
+  50% {opacity: 0;}
+  60% {opacity: 1;}
+  70% {opacity: 0;}
+  80% {opacity: 1;}
+  90% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.twentyfour {
+  background-color: #fff9aa;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  opacity: 1;
+}
+
+.twentyfour.selected {
+  animation-name: twentyfour;
+  animation-duration: .5s;
+  opacity: 1;
+
+}
