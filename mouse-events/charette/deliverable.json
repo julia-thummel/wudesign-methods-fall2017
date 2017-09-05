@@ -12,8 +12,13 @@
     }
 ,
     {
-      "name" : "button-3",
-      "file" : "button-3.html"
+      "name" : "buttons-3",
+      "file" : "buttons-3.html"
+    }
+,
+    {
+      "name" : "buttons-4",
+      "file" : "buttons-4.html"
     }
 
 

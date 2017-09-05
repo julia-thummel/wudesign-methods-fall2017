@@ -89,7 +89,73 @@
           $(this).toggleClass("selected");
         });
 
+        $(".twentyfive").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".twentysix").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".twentyseven").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".twentyeight").click(function(){
+          var x = "good job!";
+          document.getElementById("textChange").innerHTML = x;
+        });
+
+        $(".twentynine").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".thirty").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".thirtyone").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".thirtytwo").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".thirtythree").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".thirtyfour").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".thirtyfive").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".thirtysix").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".thirtyseven").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".thirtyeight").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".thirtynine").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".fourty").click(function(){
+          $(this).toggleClass("selected");
+        });
+
     });
+
 
     function oneFunction() {
       alert("hello there");

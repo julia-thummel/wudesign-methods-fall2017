@@ -445,5 +445,489 @@ p {
   animation-name: twentyfour;
   animation-duration: .5s;
   opacity: 1;
+}
 
+
+
+.twentyfive {
+  background-color: #a0f7e0;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  border: 5px solid;
+  box-sizing: border-box;
+}
+
+.twentyfive.selected {
+  border: 5px;
+  border-style: dotted;
+}
+
+@keyframes twentysix {
+  from {width: 98px; height: 98px;}
+  to {width: 500%; height: 500%;}
+}
+
+
+.twentysix {
+  background-color: #fc79ad;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+}
+
+.twentysix.selected {
+  animation-name: twentysix;
+  animation-duration: 1s;
+  margin: 0;
+  width: 500%;
+  height:500%;
+  border-radius: 1200px;
+}
+
+
+@keyframes twentyseven {
+  from {position: relative; right: 0px;}
+  to {position: relative; right: 109%;}
+}
+
+.twentyseven {
+  background-color: #a8dded;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  opacity: 1;
+  position: relative;
+}
+
+.twentyseven.selected {
+  animation-name: twentyseven;
+  animation-duration: .5s;
+  opacity: .5;
+  position: relative;
+  right: 109%;
+}
+
+
+.twentyeight {
+  background-color: #f79c85;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  position: relative;
+}
+
+
+.twentynine {
+  background-color: #ead05b;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  border: 10px outset;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.twentynine.selected {
+  border-style: inset;
+}
+
+
+.thirty {
+  background-color: #8f9b69;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  border: 1px solid;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.thirty.selected {
+  border: 3px double;
+}
+
+
+.thirtyone {
+  background-color: #dba0c1;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  box-shadow: 5px 5px 5px #888888;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.thirtyone.selected {
+  box-shadow: 0px 0px 0px #ffffff;
+}
+
+
+@keyframes thirtytwo {
+   20% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+   transform: translate3d(0,0,0);}
+   40% {animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+   transform: translate3d(-30px, 0, 0);}
+   53% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+   transform: translate3d(0,0,0);}
+   70% {animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+   transform: translate3d(-15px, 0, 0);}
+   80% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+   transform: translate3d(0,0,0);}
+   90% {transform: translate3d(-4px, 0, 0);}
+  }
+
+.thirtytwo {
+  background-color: #b51222;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  box-shadow: 5px 5px 5px #888888;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.thirtytwo.selected {
+  animation-name: thirtytwo;
+  animation-duration: 1s;
+  box-shadow: 0px 0px 0px #ffffff;
+}
+
+
+
+@keyframes thirtythree {
+   20% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+   transform: translate3d(0,0,0);}
+   40% {animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+   transform: translate3d(-30px,0,0);}
+   53% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+   transform: translate3d(0,0,0);}
+   70% {animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+   transform: translate3d(0,-200px,0);}
+   80% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+   transform: translate3d(0,0,0);}
+   90% {transform: translate3d(-4px,0,0);}
+  }
+
+.thirtythree {
+  background-color: #3e4da0;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  box-shadow: 5px 5px 5px #888888;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.thirtythree.selected {
+  animation-name: thirtythree;
+  animation-duration: 1s;
+  box-shadow: 0px 0px 0px #ffffff;
+}
+
+
+
+@keyframes thirtyfour {
+  0% {opacity: 1;}
+   20% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+   transform: translate3d(0,0,0);}
+   40% {animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+   transform: translate3d(-30px,0,0);}
+   53% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+   transform: translate3d(0,0,0); opacity: 1;}
+   70% {animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+   transform: translate3d(0,-200px,0);}
+   80% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+   transform: translate3d(0,0,0); opacity: 0;}
+   90% {transform: translate3d(-4px,0,0);}
+   100% {opacity: 0;}
+  }
+
+.thirtyfour {
+  background-color: #f7ea3b;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  box-sizing: border-box;
+  position: relative;
+  opacity: 1;
+}
+
+.thirtyfour.selected {
+  animation-name: thirtyfour;
+  animation-duration: 1s;
+  opacity: 0;
+}
+
+
+@keyframes thirtyfive {
+  0% {opacity: 1;}
+   20% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+   transform: translate3d(0,0,0);}
+   40% {animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+   transform: translate3d(-30px,0,0);}
+   53% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+   transform: translate3d(0,0,0); opacity: 1;}
+   70% {animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+   transform: translate3d(500px,0,0);}
+   80% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+   transform: translate3d(0,0,0); opacity: 0;}
+   90% {transform: translate3d(-4px,0,0);}
+   100% {opacity: 0;}
+  }
+
+.thirtyfive {
+  background-color: #f78f3b;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  box-sizing: border-box;
+  position: relative;
+  opacity: 1;
+}
+
+.thirtyfive.selected {
+  animation-name: thirtyfive;
+  animation-duration: 1s;
+  opacity: 0;
+}
+
+
+
+@keyframes thirtysix {
+  0% {background-color: #7b82fc; opacity: 1;}
+   20% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+   transform: translate3d(0,0,0);}
+   40% {animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+   transform: translate3d(-30px,0,0);}
+   53% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+   transform: translate3d(0,0,0); opacity: 1;}
+   70% {animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+   transform: translate3d(500px,0,0);}
+   80% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+   transform: translate3d(0,0,0); opacity: 0;}
+   90% {transform: translate3d(-4px,0,0);}
+   100% {background-color: #7b82fc; opacity: 0;}
+  }
+
+.thirtysix {
+  background-color: #bfc2ff;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  box-sizing: border-box;
+  position: relative;
+  opacity: 1;
+}
+
+.thirtysix.selected {
+  animation-name: thirtysix;
+  animation-duration: 1s;
+  opacity: 0;
+}
+
+
+
+@keyframes thirtyseven {
+  0% {opacity: 1;}
+  5% {opacity: 0;}
+  10% {opacity: 1;}
+   20% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+   transform: translate3d(0,0,0);}
+   40% {animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+   transform: translate3d(0,-50px,0);}
+   53% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+   transform: translate3d(0,0,0); opacity: 1;}
+   70% {animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+   transform: translate3d(0,600px,0);}
+   80% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+   transform: translate3d(0,0,0); opacity: 0;}
+   90% {transform: translate3d(0,-1px,0);}
+   100% {opacity: 0;}
+  }
+
+.thirtyseven {
+  background-color: #b3a2bf;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  box-sizing: border-box;
+  position: relative;
+  opacity: 1;
+}
+
+.thirtyseven.selected {
+  animation-name: thirtyseven;
+  animation-duration: 1s;
+  opacity: 0;
+}
+
+
+@keyframes thirtyeight {
+  0% {opacity: 1;}
+  5% {opacity: 0;}
+  10% {opacity: 1;}
+  20% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transform: translate3d(0,0,0); transform: rotate(0deg);}
+  40% {animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+  transform: translate3d(0, -30px, 0); transform: rotate(360deg);}
+  53% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transform: translate3d(0,0,0);}
+  70% {animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+  transform: translate3d(0, -15px, 0);}
+  80% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transform: translate3d(0,0,0);}
+  90% {transform: translate3d(0,-4px,0);}
+}
+
+.thirtyeight {
+  background-color: #b8baae;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  border: 1px solid;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.thirtyeight.selected {
+  animation-name: thirtyeight;
+  animation-duration: 1s;
+  border: 3px double;
+}
+
+@keyframes thirtyeight {
+  0% {opacity: 1;}
+  5% {opacity: 0;}
+  10% {opacity: 1;}
+  20% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transform: translate3d(0,0,0); transform: rotate(0deg);}
+  40% {animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+  transform: translate3d(0, -30px, 0); transform: rotate(360deg);}
+  53% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transform: translate3d(0,0,0);}
+  70% {animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+  transform: translate3d(0, -15px, 0);}
+  80% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transform: translate3d(0,0,0);}
+  90% {transform: translate3d(0,-4px,0);}
+}
+
+.thirtyeight {
+  background-color: #b8baae;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  border: 1px solid;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.thirtyeight.selected {
+  animation-name: thirtyeight;
+  animation-duration: 1s;
+  border: 3px double;
+}
+
+
+@keyframes thirtyeight {
+  0% {opacity: 1;}
+  5% {opacity: 0;}
+  10% {opacity: 1;}
+  20% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transform: translate3d(0,0,0); transform: rotate(0deg);}
+  40% {animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+  transform: translate3d(0, -30px, 0); transform: rotate(360deg);}
+  53% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transform: translate3d(0,0,0);}
+  70% {animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+  transform: translate3d(0, -15px, 0);}
+  80% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transform: translate3d(0,0,0);}
+  90% {transform: translate3d(0,-4px,0);}
+}
+
+.thirtyeight {
+  background-color: #b8baae;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  border: 1px solid;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.thirtyeight.selected {
+  animation-name: thirtyeight;
+  animation-duration: 1s;
+  border: 3px double;
+}
+
+
+
+@keyframes thirtynine {
+  0% {opacity: 1;}
+  5% {opacity: 0;}
+  10% {opacity: 1;}
+  20% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transform: translate3d(0,0,0);}
+  40% {animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+  transform: translate3d(0, -30px, 0); transform: rotate(0deg);}
+  53% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transform: translate3d(0,0,0); transform: rotate(360deg);}
+  70% {animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+  transform: translate3d(0, -15px, 0);}
+  80% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transform: translate3d(0,0,0);}
+  90% {transform: translate3d(0,-4px,0);}
+}
+
+.thirtynine {
+  background-color: #ddf466;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.thirtynine.selected {
+  animation-name: thirtynine;
+  animation-duration: 1s;
+}
+
+
+@keyframes fourty {
+  from {box-shadow: 0px 0px 0px #ffffff;}
+  to {box-shadow: 5px 5px 5px #888888;}
+}
+
+.fourty {
+  background-color: #2bb5b0;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  box-shadow: 0px 0px 0px #ffffff;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.fourty.selected {
+  animation-name: fourty;
+  animation-duration: .5s;
+  box-shadow: 5px 5px 5px #888888;
 }

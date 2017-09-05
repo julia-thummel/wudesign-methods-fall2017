@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+  <html>
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles-3.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+  </head>
+
+  <body>
+    <main>
+
+    <div class="dropdown">
+      <button onclick="oneFunction()" class="dropbtn">click me</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+
+    <div class="appear">
+      <button onclick="twoFunction()" class="oldButton">click me</button>
+      <div id="genButton" class="newButton">
+        <p>a new button!</p>
+      </div>
+    </div>
+
+    <div class="image">
+      <button onclick="threeFunction()" class="oldButton">click me</button>
+      <div id="genImage" class="newImage">
+        <img src="llama.jpg">
+      </div>
+    </div>
+
+    <div class="image">
+      <div onclick="fourFunction()" class="buttonOne">
+        <div id="placeImage" class="imgOne">
+          <img src="llama.jpg">
+        </div>
+      </div>
+    </div>
+
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script>
+      $('*').on('click', function(event) {
+        console.log(event);
+      });
+    </script>
+    <script src="scripts-3.js"></script>
+
+  </body>
+</html>
