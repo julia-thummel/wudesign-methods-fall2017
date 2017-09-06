@@ -17,3 +17,7 @@ function fourFunction() {
 function fiveFunction() {
     document.getElementById("placeImage").classList.toggle("showOne");
 }
+
+function sixFunction() {
+    document.getElementById("panel").classList.toggle("slidein");
+}

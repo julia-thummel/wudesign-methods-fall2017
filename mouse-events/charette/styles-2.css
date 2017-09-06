@@ -931,3 +931,893 @@ p {
   animation-duration: .5s;
   box-shadow: 5px 5px 5px #888888;
 }
+
+
+
+@keyframes fourtyone {
+  0% {width: 98px; height: 98px;}
+  25% {width: 300px; height: 300px;}
+  50% {width: 98px; height: 98px;}
+  75% {width: 300px; height: 300px;}
+  100% {width: 98px; height: 98px;}
+}
+
+.fourtyone {
+  background-color: #ac7eb2;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  position: relative;
+}
+
+.fourtyone.selected {
+  animation-name: fourtyone;
+  animation-duration: .5s;
+  left: 0px;
+}
+
+
+@keyframes fourtytwo {
+  0% {width: 98px; height: 98px; opacity: 1;}
+  25% {width: 300px; height: 300px; border-radius: 300px;}
+  50% {width: 98px; height: 98px;}
+  75% {width: 300px; height: 300px; opacity: 1; border-radius: 300px;}
+  100% {width: 98px; height: 98px; opacity: 0;}
+}
+
+.fourtytwo {
+  background-color: #ff6326;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  position: relative;
+  opacity: 1;
+}
+
+.fourtytwo.selected {
+  animation-name: fourtytwo;
+  animation-duration: .5s;
+  left: 0px;
+  opacity: 0;
+}
+
+
+
+@keyframes fourtythree {
+  0% {opacity: 1;}
+  20% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transform: translate3d(50px,-80px,0);}
+  40% {animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+  transform: translate3d(40, 40px, 0);}
+  53% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transform: translate3d(-10,30,0);}
+  70% {animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+  transform: translate3d(50, -50px, 0); opacity: 1;}
+  80% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transform: translate3d(0,0,0);}
+  90% {transform: translate3d(0,-4px,0); opacity: 0;}
+}
+
+.fourtythree {
+  background-color: #af2153;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  opacity: 1;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.fourtythree.selected {
+  animation-name: fourtythree;
+  animation-duration: 1s;
+  opacity: 0;
+}
+
+
+
+@keyframes fourtyfour {
+  0% {opacity: 1;}
+  1% {opacity: 0;}
+  10% {opacity: 1;}
+}
+
+.fourtyfour {
+  background-color: #f4b042;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  opacity: 1;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.fourtyfour.selected {
+  animation-name: fourtyfour;
+  animation-duration: 1s;
+    opacity: 1;
+}
+
+
+
+.fourtyfive {
+  background-color: #70ad41;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  opacity: 1;
+  box-sizing: border-box;
+  position: relative;
+}
+
+
+@keyframes fourtysix {
+  0% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.fourtysix {
+  animation-name: fourtysix;
+  animation-duration: .5s;
+  opacity: 1;
+  animation-iteration-count: infinite;
+  background-color: #44e5da;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+}
+
+
+.fourtysix.selected {
+  animation: none;
+  background-color: #44e5da;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  opacity: 1;
+  box-sizing: border-box;
+  position: relative;
+}
+
+
+
+
+@keyframes fourtyseven {
+  0% {transform: rotate(0deg); position: relative; left: 0px; right: 0px; bottom: 0px;}
+  20% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000); position: relative; left: 200px; right: 0px; bottom: 200px;}
+  40% {animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060); position: relative; left: 0px; right: 0px; bottom: 400px;}
+  53% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);}
+  70% {animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);}
+  80% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000); position: relative; left: 0; right: 200px; bottom: 200px;}
+  100% {transform: rotate(360deg); position: relative; left: 0; right: 0px; bottom: 0px;}
+}
+
+.fourtyseven {
+  animation-name: fourtyseven;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  background-color: #b7899c;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  position: relative;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+
+.fourtyseven.selected {
+  animation: none;
+  background-color: #44e5da;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  box-sizing: border-box;
+  position: relative;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+
+
+@keyframes fourtyeight {
+  0% {transform: rotate(0deg); position: relative; left: 0px; right: 0px; bottom: 0px;}
+  20% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000); position: relative; left: 200px; right: 0px; bottom: 200px;}
+  40% {animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060); position: relative; left: 0px; right: 0px; bottom: 400px;}
+  53% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);}
+  70% {animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);}
+  80% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000); position: relative; left: 0; right: 200px; bottom: 200px;}
+  100% {transform: rotate(360deg); position: relative; left: 0; right: 0px; bottom: 0px;}
+}
+
+.fourtyeight {
+  animation-name: fourtyeight;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  background-color: #f1f7c0;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  position: relative;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+
+.fourtyeight.selected {
+  animation-duration: 1s;
+  background-color: #44e5da;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  box-sizing: border-box;
+  position: relative;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+
+
+@keyframes fourtynine {
+   20% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+   transform: translate3d(0,0,0);}
+   40% {animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+   transform: translate3d(0, -30px, 0);}
+   53% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+   transform: translate3d(0,0,0);}
+   70% {animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+   transform: translate3d(0, -15px, 0);}
+   80% {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+   transform: translate3d(0,0,0);}
+   90% {transform: translate3d(0,-4px,0);}
+  }
+
+  .fourtynine {
+    animation-name: fourtynine;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    background-color: #f1f7c0;
+    display: inline-block;
+    width:98px;
+    height:98px;
+    border-radius: 100px;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+  }
+
+
+  .fifty {
+    display: none;
+    animation-name: fourtynine;
+    animation-iteration-count: infinite;
+    background-color: #68c4b1;
+    width:98px;
+    height:98px;
+    border-radius: 100px;
+    position: relative;
+  }
+
+.show {
+  display:inline-block;
+  position: relative;
+  left: 340%;
+  bottom: 25%;
+}
+
+
+
+.fiftyone {
+  animation-name: thirtynine;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  background-color: #35a567;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  position: relative;
+  left: 110%;
+}
+
+
+.fiftyone.selected {
+  animation-name: thirtythree;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+
+
+.fiftytwo {
+  background-color: #772c23;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  position: relative;
+  left: 110%;
+}
+
+.fiftytwo.selected {
+  background-color: #772c23;
+  display: inline-block;
+  width:150px;
+  height:98px;
+  border-radius: 100px;
+  position: relative;
+  left: 110%;
+ }
+
+
+@keyframes fiftythree {
+  from {width: 98px;}
+  to {width: 150px;}
+}
+
+ .fiftythree {
+   background-color: #efb5ae;
+   display: inline-block;
+   width:98px;
+   height:98px;
+   border-radius: 100px;
+ }
+
+ .fiftythree.selected {
+   animation-name: fiftythree;
+   animation-duration: 1s;
+   width:150px;
+  }
+
+
+@keyframes fiftyfour {
+  0% {height: 98px; opacity: 1;}
+  25% {height: 105px; opacity: 0;}
+  50% {height: 110px; opacity: 1;}
+  75% {height: 115px; opacity: 0;}
+  100% {height: 120px; opacity: 1;}
+}
+
+  .fiftyfour {
+    background-color: #7c94ff;
+    display: inline-block;
+    width:98px;
+    height:98px;
+    border-radius: 100px;
+    opacity: 1;
+  }
+
+  .fiftyfour.selected {
+    animation-name: fiftyfour;
+    animation-duration: 1s;
+    height: 120px;
+   }
+
+
+   @keyframes fiftyfive {
+     0% {border: 0px solid #ffffff;}
+     25% {border: 5px solid #d64635;}
+     50% {border: 0px solid #ffffff;}
+     75% {border: 5px solid #d64635;}
+     100% {border: 0px solid #ffffff;}
+   }
+
+     .fiftyfive {
+       background-color: #ffdad6;
+       display: inline-block;
+       width:98px;
+       height:98px;
+       border-radius: 100px;
+       border: 0px solid #ffffff;
+     }
+
+     .fiftyfive.selected {
+       animation-name: fiftyfive;
+       animation-duration: 1s;
+       border: 0px solid #ffffff;
+      }
+
+
+      @keyframes fiftysix {
+          0% {background-position:0% 50%;}
+          50% {background-position:100% 50%; width: 150px; height: 150px; border-radius: 160px;}
+          100% {background-position:0% 50%;}
+      }
+
+      .fiftysix {
+        background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+        background-size: 400% 400%;
+        display: inline-block;
+        width:98px;
+        height:98px;
+        border-radius: 100px;
+      }
+
+      .fiftysix.selected {
+        animation: fiftysix 10s ease infinite;
+        background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+        background-size: 400% 400%;
+      }
+
+
+
+      @keyframes fiftyseven {
+          0% {background-position:0% 50%; position: relative; left: 0px; right: 0px; bottom: 0px;}
+          25% {position: relative; left: 200px; right: 0px; bottom: 200px;}
+          50% {background-position:100% 50%; position: relative; left: 0px; right: 0px; bottom: 400px; }
+          75% {position: relative; left: 0px; right: 200px; bottom: 200px;}
+          100% {background-position:0% 50%; position: relative; left: 0px; right: 0px; bottom: 0px;}
+      }
+
+      .fiftyseven {
+        background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+        background-size: 400% 400%;
+        display: inline-block;
+        width:98px;
+        height:98px;
+        border-radius: 100px;
+        position: relative;
+      }
+
+      .fiftyseven.selected {
+        animation: fiftyseven 30s ease infinite;
+        background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+        background-size: 400% 400%;
+      }
+
+
+      @keyframes fiftyeight {
+          0% {background-position:0% 50%;}
+          50% {background-position:100% 50%;}
+          100% {background-position:0% 50%;}
+      }
+
+      .fiftyeight {
+        animation: fiftyeight 10s ease infinite;
+        background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+        background-size: 400% 400%;
+        display: inline-block;
+        width:98px;
+        height:98px;
+        border-radius: 100px;
+        position: relative;
+      }
+
+      .fiftyeight.selected {
+        animation: fiftyeight 10s ease infinite;
+        background: linear-gradient(-45deg, #adf7f4, #faff82, #ff4c5b, #e9bfff);
+        background-size: 400% 400%;
+      }
+
+
+.fiftynine {
+  display: inline-block;
+  background-color: #d4f7e1;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  position: relative;
+}
+
+.sixty {
+  display: inline-block;
+  background-color: #bc1a1a;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  position: relative;
+}
+
+
+.sixtyone {
+  display: inline-block;
+  background-color: #52bc1a;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  position: relative;
+}
+
+.sixtyone.selected {
+  position: absolute;
+}
+
+
+
+.sixtytwo {
+  display: inline-block;
+  background-color: #b54f80;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  position: relative;
+}
+
+.textOne.selected {
+  text-shadow: 2px 2px #ffffff;
+}
+
+
+
+.sixtythree {
+  display: inline-block;
+  background-color: #2c14c9;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  position: relative;
+}
+
+
+.textTwo {
+  display: inline-block;
+}
+
+.textTwo.selected {
+  display: none;
+}
+
+
+.sixtyfour {
+  display: inline-block;
+  background-color: #d8066b;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  position: relative;
+}
+
+
+@keyframes textThree {
+  from {display: inline-block;}
+  to {display: none;}
+}
+
+.textThree {
+  text-shadow: 2px 2px #ffffff;
+}
+
+.textThree.selected {
+  animation-name: textThree;
+  animation-duration: 1s;
+  text-shadow: 0px 0px #ffffff;
+}
+
+
+.sixtyfive {
+  display: inline-block;
+  background-color: #d8066b;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  position: relative;
+}
+
+
+img.appear {
+  display: inline-block;
+}
+
+.sixtysix {
+  display: inline-block;
+  background-color: #d8066b;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  position: relative;
+}
+
+
+.sixtyseven {
+  display: inline-block;
+  background-color: #d8066b;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  position: relative;
+}
+
+.textFour {
+  text-decoration: none;
+}
+
+.textFour.selected {
+  animation-name: textFour;
+  animation-duration: 1s;
+  text-decoration: underline;
+}
+
+
+@keyframes sixtyeight {
+  from {transform: rotateX(0deg);}
+  to {transform: rotateX(360deg);}
+}
+
+.sixtyeight {
+  transform: rotateX(0deg);
+  display: inline-block;
+  background-color: #d8066b;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  position: relative;
+}
+
+.sixtyeight.selected {
+  animation-name: sixtyeight;
+  animation-duration: 1s;
+  transform: rotateX(360deg);
+}
+
+
+@keyframes sixtynine {
+  from {transform: rotateY(0deg);}
+  to {transform: rotateY(360deg);}
+}
+
+.sixtynine {
+  transform: rotateY(0deg);
+  display: inline-block;
+  background-color: #d8066b;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  position: relative;
+}
+
+.sixtynine.selected {
+  animation-name: sixtynine;
+  animation-duration: 1s;
+  transform: rotateY(360deg);
+}
+
+
+@keyframes seventy {
+  from {transform: rotateX(0deg); opacity: 1}
+  to {transform: rotateX(360deg); opacity: 0;}
+}
+
+.seventy {
+  transform: rotateX(0deg);
+  opacity: 1;
+  display: inline-block;
+  background-color: #d8066b;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  position: relative;
+}
+
+.seventy.selected {
+  animation-name: seventy;
+  animation-duration: 1s;
+  transform: rotateX(360deg);
+  opacity: 0;
+}
+
+
+@keyframes seventyone {
+  0% {opacity: 1; position: relative; left: 50px; bottom: 50px;}
+  10% {opacity: 0; position: relative; left: 0px; bottom: 0px;}
+  20% {opacity: 1; position: relative; left: 50px bottom 50px}}
+  30% {opacity: 0; position: relative; left: 0px; bottom: 0px;}
+  40% {opacity: 1; position: relative; left: 50px; bottom: 50px;}
+  50% {opacity: 0; position: relative; left: 0px; bottom: 0px;}
+  60% {opacity: 1; position: relative; left: 50px; bottom: 50px;}
+  70% {opacity: 0; position: relative; left: 0px; bottom: 0px;}
+  80% {opacity: 1; position: relative; left: 50px; bottom: 50px;}
+  90% {opacity: 0; position: relative; left: 0px; bottom: 0px;}
+}
+
+.seventyone {
+  background-color: #fff9aa;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  opacity: 1;
+  position: relative;
+}
+
+.seventyone.selected {
+  animation-name: seventyone;
+  animation-duration: .5s;
+  opacity: 1;
+  left: 500px;
+  bottom: 500px;
+}
+
+
+@keyframes seventytwo {
+  from {width: 98px; height: 98px;}
+  to {width: 500%; height: 500%;}
+}
+
+
+.seventytwo {
+  background-color: #fc79ad;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+}
+
+.seventytwo.selected {
+  animation-name: seventytwo;
+  animation-delay: 3s;
+  animation-duration: 1s;
+  margin: 0;
+  width: 500%;
+  height:500%;
+  border-radius: 1200px;
+}
+
+
+
+.seventythree {
+  background-color: #fc79ad;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  font-family: inherit;
+}
+
+.seventythree.selected {
+  font-family: sans-serif;
+}
+
+
+.seventyfour {
+  background-color: #fc79ad;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  font-style: normal;
+}
+
+.seventyfour.selected {
+  font-style: italic;
+}
+
+
+@keyframes seventyfive {
+  0% {width: 98px; height: 98px; opacity: 1;}
+  25% {width: 300px; height: 300px;}
+  50% {width: 98px; height: 98px;}
+  75% {width: 300px; height: 300px;}
+  100% {width: 98px; height: 98px; opacity: 0;}
+}
+
+.seventyfive {
+  background-color: #ac7eb2;
+  display: inline-block;
+  width:98px;
+  height:98px;
+  border-radius: 100px;
+  position: relative;
+  opacity: 1;
+}
+
+.seventyfive.selected {
+  animation-name: seventyfive;
+  animation-duration: .5s;
+  left: 0px;
+  opacity: 0;
+}
+
+
+@keyframes seventysix {
+  from {width: 98px; opacity: .2;}
+  to {width: 150px; opacity: 1;}
+}
+
+ .seventysix {
+   background-color: #efb5ae;
+   display: inline-block;
+   width:98px;
+   height:98px;
+   border-radius: 100px;
+   opacity: .5;
+ }
+
+ .seventysix.selected {
+   animation-name: seventysix;
+   animation-duration: 1s;
+   width:150px;
+   opacity: .5;
+  }
+
+
+  @keyframes seventyseven {
+    from {width: 98px; opacity: .2; transform: rotate(0deg);}
+    to {width: 150px; opacity: 1; transform: rotate(50deg);}
+  }
+
+   .seventyseven {
+     background-color: #efb5ae;
+     display: inline-block;
+     width:98px;
+     height:98px;
+     border-radius: 100px;
+     opacity: .5;
+     transform: rotate(0deg);
+   }
+
+   .seventyseven.selected {
+     animation-name: seventyseven;
+     animation-duration: 1s;
+     width:150px;
+     opacity: .5;
+     transform: rotate(50deg);
+    }
+
+
+
+    @keyframes seventyeight {
+      from {width: 98px; opacity: .2; transform: rotateY(0deg);}
+      to {width: 150px; opacity: 1; transform: rotateY(50deg);}
+    }
+
+     .seventyeight {
+       background-color: #efb5ae;
+       display: inline-block;
+       width:98px;
+       height:98px;
+       border-radius: 100px;
+       opacity: .5;
+       transform: rotateY(0deg);
+     }
+
+     .seventyeight.selected {
+       animation-name: seventyeight;
+       animation-duration: 1s;
+       width:150px;
+       opacity: .5;
+       transform: rotateY(50deg);
+      }
+
+
+      @keyframes seventynine {
+          0% {background-position:0% 50%; position: relative; left: 0px; right: 0px; bottom: 0px; transform: rotate(0deg);}
+          25% {position: relative; left: 200px; right: 0px; bottom: 200px;}
+          50% {background-position:100% 50%; position: relative; left: 0px; right: 0px; bottom: 400px; transform: rotate(180deg);}
+          75% {position: relative; left: 0px; right: 200px; bottom: 200px;}
+          100% {background-position:0% 50%; position: relative; left: 0px; right: 0px; bottom: 0px; transform: rotate(360deg);}
+      }
+
+      .seventynine {
+        background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+        background-size: 400% 400%;
+        display: inline-block;
+        width:98px;
+        height:98px;
+        border-radius: 100px;
+        position: relative;
+        transform: rotate(0deg);
+      }
+
+      .seventynine.selected {
+        animation: seventynine 30s ease infinite;
+        background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+        background-size: 400% 400%;
+        transform: rotate(360deg);
+      }

@@ -105,3 +105,21 @@ body {
 
 
 /*new button*/
+
+.side {
+  display: inline-block;
+  margin: 4px 0 4px 0;
+}
+
+.noslide {
+  display: none;
+}
+
+.slidein {
+  display: block;
+  position: fixed;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #a2b0f2;
+}

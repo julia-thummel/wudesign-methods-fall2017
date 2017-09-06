@@ -154,6 +154,139 @@
           $(this).toggleClass("selected");
         });
 
+        $(".fourtyone").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".fourtytwo").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".fourtythree").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".fourtyfour").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".fourtysix").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".fourtyseven").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".fourtyeight").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".fiftyone").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".fiftytwo").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".fiftythree").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".fiftyfour").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".fiftyfive").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".fiftysix").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".fiftyseven").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".fiftyeight").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".fiftynine").click(function(){
+          $(this).slideUp();
+        });
+
+        $(".sixty").click(function(){
+          var audio = new Audio('gum.mp3');
+          audio.play();
+        });
+
+        $(".textOne").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".textTwo").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".textThree").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".textFour").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".sixtyeight").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".sixtynine").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".seventy").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".seventyone").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".seventytwo").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".seventythree").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".seventyfour").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".seventyfive").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".seventysix").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".seventyseven").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".seventyeight").click(function(){
+          $(this).toggleClass("selected");
+        });
+
+        $(".seventynine").click(function(){
+          $(this).toggleClass("selected");
+        });
+
     });
 
 
@@ -181,4 +314,25 @@
           txt = "Hello " + person + "!";
       }
       document.getElementById("greeting").innerHTML = txt;
+  }
+
+
+  function fourFunction() {
+      document.getElementById("newButton").classList.toggle("show");
+  }
+
+
+  function fiveFunction() {
+    document.getElementById("newButton").style.color = "red";
+    document.getElementById("newButton").classList.toggle("show");
+  }
+
+  function sixFunction() {
+    document.getElementById("gif").style.display = "none";
+    document.getElementById("gif").classList.toggle("appear");
+  }
+
+  function sevenFunction() {
+    document.getElementById("gif2").style.display = "none";
+    document.getElementById("gif2").classList.toggle("appear");
   }
