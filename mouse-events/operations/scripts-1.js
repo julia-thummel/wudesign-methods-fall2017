@@ -3,17 +3,21 @@ function appearFunction() {
 };
 
 
+
 $(".manipulationButton").click(function(){
   $(this).toggleClass("selected");
 });
 
 
-$('randomButton').click(function changeWidth(){
+
+$('button').click(function (){
   $(this).css({width:Math.random()*1000});
 });
 
 
 
 function color() {
-    document.getElementById("change").classList.toggle("switch");
-}
+    document.getElementById("changeButtonOne").classList.toggle("switch");
+    document.getElementById("changeButtonTwo").classList.toggle("switch");
+    document.getElementById("changeButtonThree").classList.toggle("switch");
+};
