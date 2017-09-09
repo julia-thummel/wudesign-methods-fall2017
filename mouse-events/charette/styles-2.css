@@ -1821,3 +1821,27 @@ img.appear {
         background-size: 400% 400%;
         transform: rotate(360deg);
       }
+
+    .eighty {
+      font-size: 12pt;
+    }
+
+
+    .eightyone {
+      background-color: #fff9aa;
+      display: inline-block;
+      width:98px;
+      height:98px;
+      border-radius: 100px;
+      position: relative;
+    }
+
+
+    .eightytwo {
+      background-color: #d4f7e1;
+      display: inline-block;
+      width:98px;
+      height:98px;
+      border-radius: 100px;
+      position: relative;
+    }

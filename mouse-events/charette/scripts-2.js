@@ -287,6 +287,19 @@
           $(this).toggleClass("selected");
         });
 
+        $(".eighty").click(function(){
+          $(".textQuery").fonteo({ direction: 'left' })
+        });
+
+        $(".eightyone").click(function(){
+          $('.transX').transition({ x: '40px' });
+        });
+
+        $(".eightytwo").click(function(){
+          $('.skew').transition({ skewY: '30deg' });
+        });
+
+
     });
 
 

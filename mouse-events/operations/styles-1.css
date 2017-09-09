@@ -1,0 +1,82 @@
+body {
+  margin: 50px;
+}
+
+.generation {
+  display: inline-block;
+}
+
+.firstButton {
+  display: inline-block;
+  width: 100px;
+  height: 70px;
+  background-color: #a5c5f7;
+  border: none;
+  margin: 50px;
+}
+
+.secondButton {
+  display: none;
+}
+
+.show {
+  display: inline-block;
+  width: 100px;
+  height: 70px;
+  background-color: #a5c5f7;
+  border: none;
+  margin: 50px;
+}
+
+p {
+  padding: 10px;
+}
+
+
+@keyframes manipulation {
+from {border-radius: 0px;}
+to {border-radius: 100px;}
+}
+
+
+.manipulationButton {
+  display: inline-block;
+  border-radius: 0px;
+  border: none;
+  width: 100px;
+  height: 100px;
+  background-color: #a5c5f7;
+}
+
+.manipulationButton.selected {
+  animation-name: manipulation;
+  animation-duration: .25s;
+  display: inline-block;
+  border-radius: 100px;
+  background-color: #a5c5f7;
+}
+
+
+
+.randomButton {
+  display: inline-block;
+  border: none;
+  min-width: 100px
+  border: none;
+  height: 100px;
+  background-color: #a5c5f7;
+}
+
+
+.iterationButton {
+  display: inline-block;
+  border: none;
+  width:100px;
+  height: 100px;
+  border: none;
+  background-color: #fc9b7b;
+}
+
+.switch {
+  background-color: #d9f0fc;
+}
