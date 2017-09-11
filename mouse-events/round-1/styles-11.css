@@ -1,0 +1,24 @@
+body{
+  font-family: sans-serif;
+}
+
+
+.tab {
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 50px;
+    opacity: 0.5;
+    background-color: #e0e0e0;
+    height: 10%;
+    width: 10%;
+    border-radius: 100%;
+    display: inline-flex;
+    align-content: top;
+    transition: 3s ease;
+
+  }
+
+  #draggable{
+    float: right;
+    transition: 3s ease;
+  }
