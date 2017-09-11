@@ -1,0 +1,40 @@
+ul#navigation {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    top: 10px;
+    left: 0px;
+    list-style: none;
+    z-index:9999;
+}
+
+.icon {
+    display: block;
+    margin-left: -85px;
+    margin-bottom: 5px;
+    width: 100px;
+    height: 80px;
+    background-color:#CFCFCF;
+    border-radius: 5px;
+    opacity: 0.6;
+  }
+
+.home {
+  background-color:#128a99;
+}
+
+.about {
+  background-color:#2f919e;
+}
+
+.search {
+  background-color:#42919b;
+}
+
+.photos {
+  background-color:#5e9da5;
+}
+
+.contact {
+  background-color:#7eaeb5;
+}

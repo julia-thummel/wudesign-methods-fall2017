@@ -1,0 +1,20 @@
+body {
+  margin: 100px;
+  width: 100%;
+}
+
+.flip {
+    height: 199px;
+    width: 300px;
+    margin: 0 auto;
+}
+.flip .front {
+    background: #fc8880;
+    color: #fff;
+    text-align: center;
+}
+.flip .back {
+    background: #ffda7c;
+    color: #fff;
+    text-align: center;
+}

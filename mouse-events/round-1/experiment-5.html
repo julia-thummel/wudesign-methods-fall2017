@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+  <html>
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles-5.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+  </head>
+
+    <body>
+      <main>
+
+
+        <ul id="navigation">
+         <li class="icon home">
+           <a title="Home">Menu 1</a>
+         </li>
+         <li class="icon about">
+           <a title="About">Menu 2</a>
+         </li>
+         <li class="icon search">
+           <a title="Search">Menu 3</a>
+         </li>
+         <li class="icon photos">
+           <a title="Photos">Menu 4</a>
+         </li>
+         <li class="icon contact">
+           <a title="Contact">Menu 5</a>
+         </li>
+        </ul>
+
+
+      </main>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script>
+          $('*').on('click', function(event) {
+            console.log(event);
+          });
+        </script>
+        <script src="scripts-5.js"></script>
+      </body>
+
+    </html>
