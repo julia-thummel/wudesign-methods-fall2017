@@ -1,0 +1,3 @@
+$('#tabs').tabulous({
+        effect: 'scale'
+    });

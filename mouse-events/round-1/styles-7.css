@@ -1,0 +1,74 @@
+p {
+  color:#333;
+  line-height:1.5;
+  margin-bottom: 20px;
+}
+
+#wrapper {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+#tabs {
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+#tabs li {
+    float: left;
+    margin-right: 2px;
+}
+
+#tabs li a {
+    display: block;
+    padding: 17px 30px;
+    background: #544f6b;
+    text-decoration: none;
+    color: #8478B3;
+}
+
+#tabs li a:hover {
+    background: rgb(78, 74, 99);
+}
+
+#tabs_container {
+    padding: 40px;
+    overflow: hidden;
+    position: relative;
+    background: white;
+}
+
+#tabs_container div {
+    margin-right: 40px;
+}
+
+.transition {
+    transition: all .3s ease-in-out;
+    transition-delay: .3s;
+}
+
+.make_transist {
+    transition: all .3s ease-in-out;
+}
+
+.hidescale {
+    transform: scale(0.9);
+    opacity: 0;
+}
+
+.showscale {
+    transform: scale(1);
+    opacity: 1;
+    transition-delay: .3s;
+}
+
+.tabulous_active {
+    background: white !important;
+    color: #655c89 !important;
+}
+
+.tabulousclear {
+    display: block;
+    clear: both;
+}
