@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-size: 0pt;
+}
+
+.main_div {
+    width:712px;
+    height:712px;
+    background-color:#ffa189;
+    margin: 0;
+    font-size: 0;
+    display: inline-block;
+}
+.main_div > div {
+    float: left;
+}

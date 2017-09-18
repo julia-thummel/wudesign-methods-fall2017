@@ -6,18 +6,18 @@
 }
 
 .divOne {
-  width: 50%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
   border: 2px solid #ffffff;
-  display: inline-block;
+  position: absolute;
   background-color: #ffa14f;
 }
 
 
 .divTwo {
-  width: 50%;
-  height: 50%;
+  width: 80%;
+  height: 80%;
   border: 2px solid #ffffff;
-  display: inline-block;
+  position: absolute;
   background-color: #fffc4f;
 }
