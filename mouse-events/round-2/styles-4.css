@@ -1,22 +1,10 @@
 .circle {
-  margin-left: 5px;
-  margin-top: 5px;
-  opacity: 1;
+  margin: 5px;
   background-color: #e0e0e0;
-  height: 10%;
-  width: 5%;
+  height: 20%;
+  width: 10%;
   border-radius: 100%;
-  display: inline-flex;
-  align-content: top;
-  transition: 1s ease;
+  display: inline-block;
+  position: relative;
+  transition: .25s ease;
 }
-
-
-function getRandomColor() {
-   var letters = '0123456789ABCDEF';
-   var color = '#F';
-   for (var i = 0; i < 5; i++) {
-     color += letters[Math.floor(Math.random() * 16)];
-   }
-    return color;
-   };
