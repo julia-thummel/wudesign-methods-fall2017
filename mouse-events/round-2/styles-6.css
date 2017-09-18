@@ -1,0 +1,32 @@
+body {
+  margin: 0px;
+  font-size: 0pt;
+}
+
+.card1 {
+  margin: 0px;
+  font-size: 0pt;
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+}
+
+.card2 {
+  margin: 0px;
+  font-size: 0pt;
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+}
+
+.front {
+  background-color: #accaf9;
+  margin: 0px;
+  font-size: 0pt;
+}
+
+.back {
+  background-color: #d1e1f9;
+  margin: 0px;
+  font-size: 0pt;
+}
