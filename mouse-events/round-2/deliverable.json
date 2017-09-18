@@ -1,0 +1,30 @@
+{
+  "entrypoints" : [
+
+    {
+      "name" : "experiment-1",
+      "file" : "experiment-1.html"
+    }
+,
+    {
+      "name" : "experiment-2",
+      "file" : "experiment-2.html"
+    }
+,
+    {
+      "name" : "experiment-3",
+      "file" : "experiment-3.html"
+    }
+,
+    {
+      "name" : "experiment-4",
+      "file" : "experiment-4.html"
+    }
+,
+    {
+      "name" : "experiment-5",
+      "file" : "experiment-5.html"
+      }
+
+  ]
+}
