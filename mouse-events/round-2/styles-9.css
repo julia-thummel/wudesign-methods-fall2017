@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #afffef;
+  position: relative;
+}
+
+
+@keyframes pulse {
+0% {opacity: 1;}
+25% {opacity: 0;}
+50% {opacity: 1;}
+75% {opacity: 0;}
+100% {opacity: 1;}
+}
+
+.pulse {
+  animation-name: pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
