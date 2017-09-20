@@ -1,0 +1,53 @@
+body {
+  width: 100%;
+  background-color: #bff1ff;
+  font-size: 0;
+}
+
+button {
+  z-index: 100;
+  position: absolute;
+  font-size: 12;
+  width: 100px;
+  border: none;
+  border-radius: 100px;
+  height: 50px;
+  background-color: #ffffff;
+}
+
+.rain {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.music {
+  margin-top: 130px;
+  margin-left: 50px;
+}
+
+.container1 {
+  display: inline-block;
+  margin: 0px;
+  position: absolute;
+  height: 500px;
+}
+
+.bar1 {
+  display: inline-block;
+  vertical-align: top;
+  opacity: .5;
+  width: 15px;
+}
+
+.container2 {
+  display: inline-block;
+  margin: 0px;
+  position: absolute;
+  height: 500px;
+}
+
+.bar2 {
+  display: inline-block;
+  vertical-align: bottom;
+  opacity: .5;
+  width: 15px;
