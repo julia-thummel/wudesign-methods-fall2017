@@ -1,0 +1,30 @@
+body {
+  width: 100%;
+  background-color: #bff1ff;
+  font-size: 0;
+}
+
+button {
+  font-size: 12;
+  width: 100px;
+  border: none;
+  border-radius: 100px;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+  background-color: #ffffff;
+}
+
+.container {
+  display: inline-block;
+  margin-left: 100px;
+  position: absolute;
+  height: 500px;
+}
+
+.bar {
+  display: inline-block;
+  vertical-align: top;
+  opacity: .5;
+  width: 15px;
+}
