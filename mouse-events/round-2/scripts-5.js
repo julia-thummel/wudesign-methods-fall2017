@@ -1,9 +1,8 @@
 $(".circle").mouseover(function(){
-  var currentOpacity = $(this).css("opacity");
+  var currentOpacity = Number($(this).css("opacity"));
   var opacity = Math.random() * .7;
   var newOpacity = currentOpacity + opacity;
    $(this).css("opacity", newOpacity);
-
  });
 
 
@@ -20,12 +19,14 @@ $(".circle").mouseover(function(){
 
    $( ".circle" ).mouseover(function() {
      var hoverCount = $(this).data("hoverCount");
+     console.log(hoverCount);
      if (hoverCount === undefined) {
        hoverCount = 0;
       }
       if (hoverCount < 3) {
      $(this).css("background-color", getRandomColor({hue: 'red'}));
-     $(this).data("hoverCount", hoverCount++);
+     hoverCount++;
+     $(this).data("hoverCount", hoverCount);
       }
       else {
         $(this).css("background-color", "#ff784f");

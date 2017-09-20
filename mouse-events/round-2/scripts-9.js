@@ -16,7 +16,7 @@ $( function() {
 $( ".box" ).click(function() {
     $(".container").append( '<div class="box"></div>' );
 $( ".box" ).each(function() {
-  var position = Math.floor(20+Math.random()*400);
+  var position = Math.floor(20+Math.random()*1000);
   $(this).css("top",position);
   $(this).css("left",position);
   $(this).css("background-color", getRandomColor());
