@@ -4,8 +4,8 @@ $(document).ready( function() {
 
   $('#start').hide().delay(4500).fadeIn();
 
-  $(".bubble").mousedown(function() {
-    $(this).css('background-color', 'white');
-  )};
+  $(".bubble").on("mousedown", function() {
+    $(this).css('background', 'white');
+  });
 
 });

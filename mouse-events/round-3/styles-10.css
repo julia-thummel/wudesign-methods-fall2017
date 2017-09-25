@@ -194,6 +194,10 @@ h3 {
   left: 40%;
 }
 
+.bubble:active {
+  background: white;
+}
+
 h2 {
   font-family: 'Josefin Sans', sans-serif;
   color: #ffffff;
