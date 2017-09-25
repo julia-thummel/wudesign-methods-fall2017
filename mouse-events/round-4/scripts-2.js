@@ -11,8 +11,8 @@ $(document).ready( function() {
 
   function getRandomColor() {
   	 var letters = '0123456789ABCDEF';
-     var color = '#F';
-  	 for (var i = 0; i < 5; i++) {
+     var color = '#';
+  	 for (var i = 0; i < 6; i++) {
   		 color += letters[Math.floor(Math.random() * 16)];
   	 }
   		return color;
@@ -29,14 +29,20 @@ $(document).ready( function() {
     trigger: 'manual'
   });
 
-  $(".bubble").on("click", function () {
-    setInterval(function(){
-    $(".card:not(.flipped)").first().flip(true)
-    $(".card:not(.flipped)").first().addClass("flipped")
-  }, 3);
-    $(".back").each(function() {
-      $(this).css("background-color", getRandomColor());
-    })
+  $(".bubble").mousedown(function () {
+    setTimeout(function(){
+      setInterval(function(){
+      $(".card:not(.flipped)").first().flip(true)
+      $(".card:not(.flipped)").first().addClass("flipped")
+    }, 3);
+      $(".back").each(function() {
+        $(this).css("background-color", getRandomColor());
+      });
+      $(".card").each(function() {
+        $(".card1").delay(1000).animate({top: "-100%"}, 1000, "swing");
+        $(".card2").delay(1000).animate({top: "100%"}, 1000, "swing");
+      });
+    }).delay(1000);
   });
 
   //
