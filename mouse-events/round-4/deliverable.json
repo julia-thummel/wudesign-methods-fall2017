@@ -1,0 +1,54 @@
+{
+  "entrypoints" : [
+
+    {
+      "name" : "experiment-1",
+      "file" : "experiment-1.html"
+    }
+,
+    {
+      "name" : "experiment-2",
+      "file" : "experiment-2.html"
+    }
+,
+    {
+      "name" : "experiment-3",
+      "file" : "experiment-3.html"
+    }
+,
+    {
+      "name" : "experiment-4",
+      "file" : "experiment-4.html"
+    }
+,
+    {
+      "name" : "experiment-5",
+      "file" : "experiment-5.html"
+      }
+,
+    {
+      "name" : "experiment-6",
+      "file" : "experiment-6.html"
+      }
+,
+    {
+      "name" : "experiment-7",
+      "file" : "experiment-7.html"
+      }
+,
+    {
+      "name" : "experiment-8",
+      "file" : "experiment-8.html"
+      }
+,
+    {
+      "name" : "experiment-9",
+      "file" : "experiment-9.html"
+      }
+,
+    {
+      "name" : "experiment-10",
+      "file" : "experiment-10.html"
+      }
+  ]
+}
