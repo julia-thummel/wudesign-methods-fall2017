@@ -1,0 +1,155 @@
+body {
+  background-color: #212121;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  font-size: 0px;
+}
+
+.inner {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  align-items: center;
+  overflow: hidden;
+}
+
+
+h1 {
+  font-size: 20pt;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ffffff;
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 45%;
+  left: 45%;
+}
+
+@keyframes textMove {
+  0% {top: 100%; opacity: 0;}
+  3% {top: 48%; opacity: 0;}
+  5% {top: 45%; opacity: 1;}
+  50% {top: 44%; opacity: .7;}
+  95% {top: 43%; opacity: 1;}
+  97% {top: 40%; opacity: 0;}
+  100% {top: -10%; opacity: .0;}
+}
+
+.textMove {
+  animation-name: textMove;
+  animation-duration: 4s;
+  animation-timing-function: cubic-bezier(.0, 1);
+  position: relative;
+  text-align: center;
+  left: 45%;
+  top: -30%
+}
+
+.load {
+  float: left;
+  width: 100%;
+  height: 620px;
+  position: absolute;
+  vertical-align: top;
+}
+
+@keyframes four {
+  0% {transform: scale(0.0);}
+  25% {transform: scale(1);}
+  50% {transform: scale(1);}
+  75% {transform: scale(1);}
+  100% {transform: scale(1);}
+}
+
+.circleFour {
+  animation-name: four;
+  animation-duration: 3.5s;
+  width: 30px;
+  height: 30px;
+  transform: scale(1);
+  transition: all 1s ease-in-out;
+  background-color: #ffffff;
+  display: inline-block;
+  position: absolute;
+  border-radius: 30px;
+  left: 5%;
+  top: 0%;
+}
+
+@keyframes three {
+  0% {transform: scale(0.0);}
+  25% {transform: scale(0.0);}
+  50% {transform: scale(1);}
+  75% {transform: scale(1);}
+  100% {transform: scale(1);}
+}
+
+.circleThree {
+  animation-name: three;
+  animation-duration: 3.5s;
+  width: 30px;
+  height: 30px;
+  transform: scale(1);
+  transition: all 1s ease-in-out;
+  background-color: #ffffff;
+  display: inline-block;
+  position: absolute;
+  border-radius: 30px;
+  left: 90%;
+  top: 0%;
+}
+
+@keyframes two {
+  0% {transform: scale(0.0);}
+  25% {transform: scale(0.0);}
+  50% {transform: scale(0.0);}
+  75% {transform: scale(1);}
+  100% {transform: scale(1);}
+}
+
+.circleTwo {
+  animation-name: two;
+  animation-duration: 3.5s;
+  width: 30px;
+  height: 30px;
+  transform: scale(1);
+  transition: all 1s ease-in-out;
+  background-color: #ffffff;
+  display: inline-block;
+  position: absolute;
+  border-radius: 30px;
+  left: 90%;
+  top: 90%;
+}
+
+@keyframes one {
+  0% {transform: scale(0.0);}
+  25% {transform: scale(0.0);}
+  50% {transform: scale(0.0);}
+  75% {transform: scale(0.0);}
+  100% {transform: scale(1);}
+}
+
+.circleOne {
+  animation-name: one;
+  animation-duration: 3.5s;
+  width: 30px;
+  height: 30px;
+  transform: scale(1);
+  transition: all 1s ease-in-out;
+  background-color: #ffffff;
+  display: inline-block;
+  position: absolute;
+  border-radius: 30px;
+  left: 5%;
+  top: 90%;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #212121;
+  font-size: 10pt;
+  text-align: center;
+}
