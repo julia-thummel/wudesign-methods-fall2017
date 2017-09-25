@@ -1,0 +1,61 @@
+body {
+  background-color: #212121;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  font-size: 0px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  align-items: center;
+  overflow: hidden;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+h1 {
+  font-size: 20pt;
+  color: #ffffff;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  top: 40%;
+  left: 45%;
+}
+
+@keyframes textMove {
+  0% {top: 100%; opacity: 0;}
+  3% {top: 48%; opacity: 0;}
+  5% {top: 45%; opacity: 1;}
+  50% {top: 44%; opacity: .7;}
+  95% {top: 43%; opacity: 1;}
+  97% {top: 40%; opacity: 0;}
+  100% {top: -10%; opacity: .0;}
+}
+
+.textMove {
+  animation-name: textMove;
+  animation-duration: 4s;
+  animation-timing-function: cubic-bezier(.0, 1);
+  text-transform: uppercase;
+  position: relative;
+  text-align: center;
+  left: 40%;
+  top: -30%
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  display: inline-block;
+  position: relative;
+}
+
+.four {
+  left: 1%;
+  top: 1%;
+}
