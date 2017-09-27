@@ -75,11 +75,12 @@ var value2 = null;
           }
         }
       })
+      console.log(value1);
+      console.log(value2);
     }, 2500);
   });
 
-console.log(value1);
-console.log(value2);
+
 
 
   //
