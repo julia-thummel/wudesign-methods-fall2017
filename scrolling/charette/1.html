@@ -1,0 +1,151 @@
+<html>
+
+<head>
+  <title>scroll one</title>
+  <link rel="stylesheet" type="text/css" href="styles-1.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+  <body>
+    <main>
+
+      <div class="container1">
+      1  <div class="square" data-0="background-color:rgb(0,0,255);" data-500="background-color:rgb(255,0,0);"></div>
+
+      2  <div class="square" data-0="transform[bounce]:rotate(0deg);" data-500="transform[bounce]:rotate(360deg);"></div>
+
+      3  <div class="square" data-0="border-radius:0px;" data-500="border-radius:100px;"></div>
+
+      4  <div class="square" data-0="border-radius:100px;border:0px solid #ff7749;box-sizing:border-box;" data-500="border-radius:100px;border:8px solid #ff7749;box-sizing:border-box;"></div>
+
+      5  <div class="square" data-0="transform:rotateY(0deg);" data-500="transform:rotateY(360deg);"></div>
+
+      6  <div class="square" data-0="transform:rotateX(0deg);" data-500="transform:rotateX(360deg);"></div>
+
+      7  <div class="square" data-0="border-radius:100px;transform:scale(0);opacity:1;" data-500="border-radius:100px;transform:scale(100);opacity:0;"></div>
+
+      8  <div class="square" data-100="opacity:1;" data-600="opacity:0;"></div>
+
+      9  <div class="square" data-100="border: 9px solid #ff49d4;box-sizing:border-box;" data-600="border: 3px dashed #ff49d4;box-sizing:border-box;"></div>
+
+      10  <div class="square" data-100="transform:skewX(0deg);" data-600="transform:skewX(50deg);"></div>
+
+      11  <div class="square" data-100="transform:scaleX(1);opacity:.5;" data-600="transform:scaleX(10);opacity:0;"></div>
+
+      12  <div class="square" data-100="transform:skewY(0deg)" data-600="transform:skewY(50deg)"></div>
+
+      13  <div class="None" data-100="transform:scale(1, 1); border: 0px solid #ff9d49; opacity:1;" data-600="transform:scale(20, 20); border: 2px solid #ff9d49; opacity:0;"></div>
+
+      14  <div class="square" data-500"animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);transform: translate3d(0,0,0);" data-600="animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060); transform: translate3d(0, -70px, 0);" data-700="animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);transform: translate3d(0,0,0);" data-800="animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060); transform: translate3d(0, -15px, 0)"></div>
+
+      15  <div class="square" data-500="transform: translate3d(0,0,0);" data-550="transform: translate3d(0,-100px,0);" data-600="transform: translate3d(0,0,0);" data-650="transform: translate3d(0,-100px,0);" data-700="transform: translate3d(0,0,0);" data-750="transform: translate3d(0,-100px,0);"></div>
+
+      16  <div class="square" data-500="transform:scaleX(1) rotate(0deg);opacity:.5;" data-800="transform:scaleX(15) rotate(360deg);opacity:.5;"></div>
+
+      17  <div class="stay2" data-300="left:0%;" data-200="top:0%;" data-500="left:50%;" data-700="top:50%;"></div>
+
+      18  <div class="stay2" data-300="background-color:rgb(255,255,255);opacity: 1; left: 400px;" data-500="background-color:rgb(255,0,0);opacity: 1;left: 400px;" data-700="background-color:rgb(0,255,0);opacity: 1;left: 400px;" data-900="background-color:rgb(0,0,255);opacity: 1;left: 400px;" data-1100="background-color:rgb(255,255,255);opacity: 0;left: 400px;"></div>
+
+      19  <div class="none" data-300="transform:scale(1) rotate(0deg);opacity:.5;border: 1px dotted #ff6e5b;" data-1500="transform:scale(18) rotate(360deg);opacity:.5;border: 1px dotted #ff6e5b;"></div>
+
+      20  <div class="square" data-500="left:0;top:0;" data-600="left:900;top:100;" data-700="left:0;top:200;" data-800="left:900;top:400;"></div>
+
+      21  <div class="square" data-500="left:0;" data-510="left:10;" data-520="left:0;" data-530="left:10;" data-540="left:0;" data-550="left:10;" data-560="left:0;" data-570="left:10;" data-580="left:0;"></div>
+
+      22  <div class="square" data-500="border: solid 2px; box-sizing:border-box;transform: scale(.9);" data-600="border: double 7px; box-sizing:border-box; transform: scale(1.2);"></div>
+
+      23  <div class="square" data-500="border: inset 5px; box-sizing:border-box;transform: scale(.9);" data-600="border: outset 7px; box-sizing:border-box; transform: scale(1.2);" data-700="border: inset 5px; box-sizing:border-box;transform: scale(.9);" data-800="border: outset 5px; box-sizing:border-box;transform: scale(.9);"></div>
+
+      24  <div class="square" data-500="transform:scale(0);" data-1000="transform:scale(1);"></div>
+
+      25  <div class="stay1" data-500="background-color:rgb(0,0,255);" data-1000="background-color:rgb(255,0,0);"></div>
+
+      26  <div class="square" data-600="left:-500px; top:-500px;" data-700="left:-100px; top:0px;" data-750="left:-50px; top:-100px;" data-800="left: 0px; top: 0px;"></div>
+
+      27  <div class="None" data-0="transform:scale(25, 25); border: 2px solid #fff15b; opacity:0;" data-500="transform:scale(1, 1); border: 0px solid #fff15b; opacity:1;"></div>
+
+      28  <div class="square" data-600="left:-500px; transform:rotateZ(0deg);" data-900="left:200px; transform:rotateZ(360deg);"></div>
+
+      29  <div class="text">
+            <p data-600="color:black;" data-740="color:white;">hello world</p>
+          </div>
+
+      30  <div class="text">
+            <p data-600="color:rgb(255,0,0);" data-750="color:rgb(255,136,17)" data-800="color:rgb(255,243,17);" data-850="color:rgb(16,168,29);" data-900="color:rgb(21,111,191);" data-950="color:rgb(93,29,130);">rainbow</p>
+          </div>
+
+      31  <div class="square" data-300="opacity:1;" data-400="opacity:0;" data-500="opacity:1;" data-600="opacity:0;" data-700="opacity:1;" data-800="opacity:0;" data-900="opacity:1;"></div>
+
+      32  <div class="splitStay1" data-500="left:0%;top:80%;" data-1000="left:40%;top:0%;" data-1500="left:90%;top:80%;">
+            <div class="splitStay2"data-500="opacity:1;" data-600="opacity:0;" data-700="opacity:1;" data-800="opacity:0;" data-900="opacity:1;" data-1000="opacity:0;">
+            </div>
+          </div>
+
+      33  <div class="square">
+            <p data-850="text-decoration: none;" data-1100="text-decoration: underline;">underline</p>
+          </div>
+
+      34  <div class="square">
+            <p data-850="text-decoration: none;" data-1100="text-decoration: line-through;">linethrough</p>
+          </div>
+
+      35  <div class="square">
+            <p data-850="text-decoration: none;" data-1100="text-decoration: overline;">overline</p>
+          </div>
+
+      36  <div class="square" data-900="transform: rotate(0deg); left: 0px; top: 0px;" data-1000="transform: rotate(360deg); left: 20px; top: 20px;" data-1100="transform: rotate(360deg); left: 0px; top: 80px;" data-1200="transform: rotate(360deg); left: -80px; top: 0px;" data-1200="transform: rotate(360deg); left: 0px; top: -80px;"></div>
+
+      37  <div class="stay2" data-500="left:0%;top:80%;" data-1000="left:40%;top:0%;" data-1500="left:90%;top:80%;"></div>
+
+      38  <div class="stay3" data-800="left:-900px; transform:rotateZ(0deg) scale(1, 1); top: 0px;" data-1200="left:0px; transform:rotateZ(720deg) scale(10, .01); top: -100px;"></div>
+
+      39  <div class="square" data-1100="transform: rotate(0deg); left: 0px; top: 0px;" data-1200="transform: rotate(360deg); left: 200px; top: 200px;" data-1300="transform: rotate(720deg); left: 0px; top: 800px;" data-1400="transform: rotate(1080deg); left: -800px; top: 0px;" data-1500="transform: rotate(1440deg); left: 0px; top: -800px;"></div>
+
+      40  <div class="square" data-1100="box-shadow: 0px 0px 0px rgb(255,255,255);" data-1300="box-shadow: 10px 10px 5px rgb(0,0,0);"></div>
+
+      41  <div class="square" data-1100="box-shadow: 0px 0px 0px rgb(255,255,255); background: rgb(0,0,255);" data-1300="box-shadow: 10px 10px 5px rgb(0,0,0); background: rgb(255,0,255);"></div>
+
+      42  <div class="None" data-1100="transform: scale(1); opacity: 1; border: 7px solid #dd4444;" data-1200="transform: scale(12); opacity: 0; border: 7px solid #dd4444;" data-1300="transform: scale(1); opacity: 1; border: 7px solid #dd4444;" data-1400="transform: scale(17); opacity: 0; border: 7px solid #dd4444;"></div>
+
+      43  <div class="stay2" data-1100="transform: scale(.2); opacity: 0; left: 0px;" data-1300="transform: scale(.5); opacity: 1; left: 100px;" data-1500="transform: scale(.2); opacity: 0; left: 200px;" data-1700="transform: scale(.5); opacity: 1; left: 300px;" data-1900="transform: scale(.2); opacity: 0; left: 400px;" data-2100="transform: scale(.5); opacity: 1; left: 500px;" data-2300="transform: scale(.2); opacity: 0; left: 600px;" data-2500="transform: scale(.5); opacity: 1; left: 700px;"></div>
+
+      44  <div class="square">
+            <p data-1200="display: inline-block;" data-1400="display: none;" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+
+      45  <div class="square" data-1400="transform: rotateY(0deg); top:0px;" data-1800="transform: rotateY(1800deg); top:1100px;"></div>
+
+      46  <div class="square" data-1500="transform: rotateX(0deg); top:0px;" data-1900="transform: rotateX(1800deg); top:1100px;"></div>
+
+      47  <div class="square">
+            <p data-1400="font-size: 10pt;" data-1700="font-size: 180pt;">woah</p>
+          </div>
+
+      48  <div class="square" data-500="transform[bounce]:rotate(0deg);" data-top="transform[bounce]:rotate(360deg);"></div>
+
+      49  <div class="square" data-1400="opacity:1; transform: scale(1);" data-1500="opacity:.5; transform: scale(15);"></div>
+
+      50  <div class="square" data-1400="transform: scale(1, 1);" data-1500="transform: scale(.1, 12);"></div>
+
+      51  <div class="square">
+            <p data-1400="font-size: 10pt; transform: rotate(0deg);" data-1700="font-size: 180pt; transform: rotate(360deg);">cool</p>
+          </div>
+
+      52  <div class="stay3" data-0="transform:scale(1, 1);" data-1000="transform:scale(5, .01);"></div>
+      </div>
+      <!-- <div class="container2">
+        <div class="square" data-0="transform[bounce]:rotate(0deg);" data-top="transform[bounce]:rotate(360deg);"></div>
+      </div> -->
+
+    </main>
+      <script src="scripts-1.js"></script>
+      <script src="randomColor.js"></script>
+      <script type="text/javascript">
+    	var s = skrollr.init();
+  	</script>
+  </body>
+
+</html>
