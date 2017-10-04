@@ -15,6 +15,11 @@
       "name" : "three",
       "file" : "3.html"
     }
+,
+    {
+      "name" : "four",
+      "file" : "4.html"
+    }
 
   ]
 }
