@@ -101,6 +101,23 @@ img {
   display: inline-block;
   position: relative;
   height: 120px;
+  margin-top: 15%;
+  margin-left: 7%;
+}
+
+.shapes {
+  width: 500px;
+  height:500px;
+  position: relative;
+  display: inline-block;
   margin-top: 7%;
   margin-left: 7%;
+  border: 2px solid #c0c3c6;
+}
+
+.gradients {
+  width: 900px;
+  height:900px;
+  position: fixed;
+  margin-top: 7%;
 }

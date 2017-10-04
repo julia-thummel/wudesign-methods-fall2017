@@ -17,4 +17,6 @@ $(document).ready( function() {
   $(".text").each( function() {
     $(this).css("background-color", randomColor({hue: 'blue'}));
   })
+
+
 })
