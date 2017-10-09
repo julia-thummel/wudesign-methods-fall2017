@@ -25,5 +25,10 @@
       "name" : "five",
       "file" : "5.html"
     }
+,
+    {
+      "name" : "six",
+      "file" : "6.html"
+    }
   ]
 }
