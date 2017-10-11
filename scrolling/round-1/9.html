@@ -1,1 +1,108 @@
-scroll triggers orbit animation
+<html>
+
+<head>
+  <title>circles 9</title>
+  <link rel="stylesheet" type="text/css" href="styles-9.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+  <body>
+    <main>
+
+      <div class="container1">
+
+
+          <div class="circle" data-0="transform:scale(0); opacity:.5; left: 50%;" data-500="transform:scale(20); opacity:1; left: 150%;"></div>
+          <div class="circle" data-0="transform:scale(0); opacity:.5; left: 50%;" data-500="transform:scale(20); opacity:1; left: -50%;"></div>
+          <div class="circle" data-100="transform:scale(0); opacity:.5; left: 50%;" data-600="transform:scale(30); opacity:1; left: 150%;"></div>
+          <div class="circle" data-100="transform:scale(0); opacity:.5; left: 50%;" data-600="transform:scale(20); opacity:1; left: -50%;"></div>
+          <div class="circle" data-200="transform:scale(0); opacity:.5; left: 50%;" data-700="transform:scale(10); opacity:1; left: 150%;"></div>
+          <div class="circle" data-200="transform:scale(0); opacity:.5; left: 50%;" data-700="transform:scale(30); opacity:1; left: -50%;"></div>
+          <div class="circle" data-300="transform:scale(0); opacity:.5; left: 50%;" data-800="transform:scale(20); opacity:1; left: 150%;"></div>
+          <div class="circle" data-300="transform:scale(0); opacity:.5; left: 50%;" data-800="transform:scale(10); opacity:1; left: -50%;"></div>
+          <div class="circle" data-400="transform:scale(0); opacity:.5; left: 50%;" data-900="transform:scale(20); opacity:1; left: 150%;"></div>
+          <div class="circle" data-400="transform:scale(0); opacity:.5; left: 50%;" data-900="transform:scale(40); opacity:1; left: -50%;"></div>
+          <div class="circle" data-500="transform:scale(0); opacity:.5; left: 50%;" data-1000="transform:scale(20); opacity:1; left: 150%;"></div>
+          <div class="circle" data-500="transform:scale(0); opacity:.5; left: 50%;" data-1000="transform:scale(10); opacity:1; left: -50%;"></div>
+          <div class="circle" data-600="transform:scale(0); opacity:.5; left: 50%;" data-1100="transform:scale(20); opacity:1; left: 150%;"></div>
+          <div class="circle" data-600="transform:scale(0); opacity:.5; left: 50%;" data-1100="transform:scale(30); opacity:1; left: -50%;"></div>
+          <div class="circle" data-700="transform:scale(0); opacity:.5; left: 50%;" data-1200="transform:scale(20); opacity:1; left: 150%;"></div>
+          <div class="circle" data-700="transform:scale(0); opacity:.5; left: 50%;" data-1200="transform:scale(40); opacity:1; left: -50%;"></div>
+          <div class="circle" data-800="transform:scale(0); opacity:.5; left: 50%;" data-1300="transform:scale(10); opacity:1; left: 150%;"></div>
+          <div class="circle" data-800="transform:scale(0); opacity:.5; left: 50%;" data-1300="transform:scale(20); opacity:1; left: -50%;"></div>
+          <div class="circle" data-900="transform:scale(0); opacity:.5; left: 50%;" data-1400="transform:scale(10); opacity:1; left: 150%;"></div>
+          <div class="circle" data-900="transform:scale(0); opacity:.5; left: 50%;" data-1400="transform:scale(20); opacity:1; left: -50%;"></div>
+          <div class="circle" data-1000="transform:scale(0); opacity:.5; left: 50%;" data-1500="transform:scale(30); opacity:1; left: 150%;"></div>
+          <div class="circle" data-1000="transform:scale(0); opacity:.5; left: 50%;" data-1500="transform:scale(10); opacity:1; left: -50%;"></div>
+          <div class="circle" data-1100="transform:scale(0); opacity:.5; left: 50%;" data-1600="transform:scale(40); opacity:1; left: 150%;"></div>
+          <div class="circle" data-1100="transform:scale(0); opacity:.5; left: 50%;" data-1600="transform:scale(20); opacity:1; left: -50%;"></div>
+          <div class="circle" data-1200="transform:scale(0); opacity:.5; left: 50%;" data-1700="transform:scale(20); opacity:1; left: 150%;"></div>
+          <div class="circle" data-1200="transform:scale(0); opacity:.5; left: 50%;" data-1700="transform:scale(30); opacity:1; left: -50%;"></div>
+          <div class="circle" data-1300="transform:scale(0); opacity:.5; left: 50%;" data-1800="transform:scale(20); opacity:1; left: 150%;"></div>
+          <div class="circle" data-1300="transform:scale(0); opacity:.5; left: 50%;" data-1800="transform:scale(40); opacity:1; left: -50%;"></div>
+          <div class="circle" data-1400="transform:scale(0); opacity:.5; left: 50%;" data-1900="transform:scale(10); opacity:1; left: 150%;"></div>
+          <div class="circle" data-1400="transform:scale(0); opacity:.5; left: 50%;" data-1900="transform:scale(20); opacity:1; left: -50%;"></div>
+          <div class="circle" data-1500="transform:scale(0); opacity:.5; left: 50%;" data-2000="transform:scale(10); opacity:1; left: 150%;"></div>
+          <div class="circle" data-1500="transform:scale(0); opacity:.5; left: 50%;" data-2000="transform:scale(20); opacity:1; left: -50%;"></div>
+          <div class="circle" data-1600="transform:scale(0); opacity:.5; left: 50%;" data-2100="transform:scale(30); opacity:1; left: 150%;"></div>
+          <div class="circle" data-1600="transform:scale(0); opacity:.5; left: 50%;" data-2100="transform:scale(10); opacity:1; left: -50%;"></div>
+          <div class="circle" data-1700="transform:scale(0); opacity:.5; left: 50%;" data-2200="transform:scale(40); opacity:1; left: 150%;"></div>
+          <div class="circle" data-1700="transform:scale(0); opacity:.5; left: 50%;" data-2200="transform:scale(20); opacity:1; left: -50%;"></div>
+          <div class="circle" data-1800="transform:scale(0); opacity:.5; left: 50%;" data-2300="transform:scale(20); opacity:1; left: 150%;"></div>
+          <div class="circle" data-1800="transform:scale(0); opacity:.5; left: 50%;" data-2300="transform:scale(60); opacity:1; left: 150%;"></div>
+          <div class="circle" data-1900="transform:scale(0); opacity:.5; left: 50%;" data-2400="transform:scale(20); opacity:1; left: 150%;"></div>
+          <div class="circle" data-1900="transform:scale(0); opacity:.5; left: 50%;" data-2400="transform:scale(20); opacity:1; left: -50%;"></div>
+          <div class="circle" data-2000="transform:scale(0); opacity:.5; left: 50%;" data-2500="transform:scale(30); opacity:1; left: 150%;"></div>
+          <div class="circle" data-2000="transform:scale(0); opacity:.5; left: 50%;" data-2500="transform:scale(20); opacity:1; left: -50%;"></div>
+          <div class="circle" data-2100="transform:scale(0); opacity:.5; left: 50%;" data-2600="transform:scale(10); opacity:1; left: 150%;"></div>
+          <div class="circle" data-2100="transform:scale(0); opacity:.5; left: 50%;" data-2600="transform:scale(30); opacity:1; left: -50%;"></div>
+          <div class="circle" data-2200="transform:scale(0); opacity:.5; left: 50%;" data-2700="transform:scale(60); opacity:1; left: 150%;"></div>
+          <div class="circle" data-2200="transform:scale(0); opacity:.5; left: 50%;" data-2700="transform:scale(60); opacity:1; left: -50%;"></div>
+          <div class="circle" data-2300="transform:scale(0); opacity:.5; left: 50%;" data-2800="transform:scale(20); opacity:1; left: 150%;"></div>
+          <div class="circle" data-2300="transform:scale(0); opacity:.5; left: 50%;" data-2800="transform:scale(40); opacity:1; left: -50%;"></div>
+          <div class="circle" data-2400="transform:scale(0); opacity:.5; left: 50%;" data-2900="transform:scale(20); opacity:1; left: 150%;"></div>
+          <div class="circle" data-2400="transform:scale(0); opacity:.5; left: 50%;" data-2900="transform:scale(70); opacity:1; left: -50%;"></div>
+          <div class="circle" data-2500="transform:scale(0); opacity:.5; left: 50%;" data-3000="transform:scale(20); opacity:1; left: 150%;"></div>
+          <div class="circle" data-2500="transform:scale(0); opacity:.5; left: 50%;" data-3000="transform:scale(30); opacity:1; left: -50%;"></div>
+          <div class="circle" data-2600="transform:scale(0); opacity:.5; left: 50%;" data-3100="transform:scale(20); opacity:1; left: 150%;"></div>
+          <div class="circle" data-2600="transform:scale(0); opacity:.5; left: 50%;" data-3100="transform:scale(40); opacity:1; left: -50%;"></div>
+          <div class="circle" data-2700="transform:scale(0); opacity:.5; left: 50%;" data-3200="transform:scale(70); opacity:1; left: 150%;"></div>
+          <div class="circle" data-2700="transform:scale(0); opacity:.5; left: 50%;" data-3200="transform:scale(70); opacity:1; left: -50%;"></div>
+          <div class="circle" data-2800="transform:scale(0); opacity:.5; left: 50%;" data-3300="transform:scale(10); opacity:1; left: 150%;"></div>
+          <div class="circle" data-2800="transform:scale(0); opacity:.5; left: 50%;" data-3300="transform:scale(20); opacity:1; left: -50%;"></div>
+          <div class="circle" data-2900="transform:scale(0); opacity:.5; left: 50%;" data-3400="transform:scale(30); opacity:1; left: 150%;"></div>
+          <div class="circle" data-2900="transform:scale(0); opacity:.5; left: 50%;" data-3400="transform:scale(10); opacity:1; left: -50%;"></div>
+          <div class="circle" data-3000="transform:scale(0); opacity:.5; left: 50%;" data-3500="transform:scale(80); opacity:1; left: 150%;"></div>
+          <div class="circle" data-3000="transform:scale(0); opacity:.5; left: 50%;" data-3500="transform:scale(20); opacity:1; left: -50%;"></div>
+          <div class="circle" data-3100="transform:scale(0); opacity:.5; left: 50%;" data-3600="transform:scale(20); opacity:1; left: 150%;"></div>
+          <div class="circle" data-3100="transform:scale(0); opacity:.5; left: 50%;" data-3600="transform:scale(80); opacity:1; left: -50%;"></div>
+          <div class="circle" data-3200="transform:scale(0); opacity:.5; left: 50%;" data-3700="transform:scale(20); opacity:1; left: 150%;"></div>
+          <div class="circle" data-3200="transform:scale(0); opacity:.5; left: 50%;" data-3700="transform:scale(60); opacity:1; left: -50%;"></div>
+          <div class="circle" data-3300="transform:scale(0); opacity:.5; left: 50%;" data-3800="transform:scale(60); opacity:1; left: 150%;"></div>
+          <div class="circle" data-3300="transform:scale(0); opacity:.5; left: 50%;" data-3800="transform:scale(20); opacity:1; left: -50%;"></div>
+          <div class="circle" data-3400="transform:scale(0); opacity:.5; left: 50%;" data-3900="transform:scale(30); opacity:1; left: 150%;"></div>
+          <div class="circle" data-3400="transform:scale(0); opacity:.5; left: 50%;" data-3900="transform:scale(20); opacity:1; left: -50%;"></div>
+          <div class="circle" data-3500="transform:scale(0); opacity:.5; left: 50%;" data-4000="transform:scale(30); opacity:1; left: 150%;"></div>
+          <div class="circle" data-3500="transform:scale(0); opacity:.5; left: 50%;" data-4000="transform:scale(40); opacity:1; left: -50%;"></div>
+          <div class="circle" data-3600="transform:scale(0); opacity:.5; left: 50%;" data-4100="transform:scale(40); opacity:1; left: 150%;"></div>
+          <div class="circle" data-3600="transform:scale(0); opacity:.5; left: 50%;" data-4100="transform:scale(70); opacity:1; left: -50%;"></div>
+          <div class="circle" data-3700="transform:scale(0); opacity:.5; left: 50%;" data-4200="transform:scale(70); opacity:1; left: 150%;"></div>
+          <div class="circle" data-3700="transform:scale(0); opacity:.5; left: 50%;" data-4200="transform:scale(60); opacity:1; left: 150%;"></div>
+
+
+      </div>
+
+
+
+    </main>
+      <script src="scripts-9.js"></script>
+      <script src="randomColor.js"></script>
+      <script type="text/javascript">
+    	var s = skrollr.init();
+  	</script>
+  </body>
+
+</html>
