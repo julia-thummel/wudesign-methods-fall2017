@@ -30,5 +30,15 @@
       "name" : "six",
       "file" : "6.html"
     }
+,
+    {
+      "name" : "seven",
+      "file" : "7.html"
+    }
+,
+    {
+      "name" : "eight",
+      "file" : "8.html"
+    }
   ]
 }
