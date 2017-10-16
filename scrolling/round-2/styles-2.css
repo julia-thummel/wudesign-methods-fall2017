@@ -1,0 +1,54 @@
+body {
+  width: 100%;
+  height: 10000px;
+}
+
+.shape{
+  position: fixed;
+}
+
+svg {
+  position: absolute;
+  height: 1900px;
+  width: 1900px;
+}
+
+.p1 {
+  fill: #ddeaff;
+}
+
+.p2 {
+  fill: #becfea;
+}
+
+.p3 {
+  fill: #92a9ce;
+}
+
+.p4 {
+  fill: #6c87b2;
+}
+
+.p5 {
+  fill: #5775a5;
+}
+
+.p6 {
+  fill: #44659b;
+}
+
+.p7 {
+  fill: #31538c;
+}
+
+.p8 {
+  fill: #26467c;
+}
+
+.p9 {
+  fill: #183566;
+}
+
+.p10 {
+  fill: #0e2854;
+}
