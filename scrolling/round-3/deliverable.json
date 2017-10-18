@@ -1,0 +1,54 @@
+{
+  "entrypoints" : [
+
+    {
+      "name" : "debounce blobs",
+      "file" : "1.html"
+    }
+,
+    {
+      "name" : "blobs morph once",
+      "file" : "2.html"
+    }
+,
+    {
+      "name" : "three",
+      "file" : "3.html"
+    }
+,
+    {
+      "name" : "four",
+      "file" : "4.html"
+    }
+,
+    {
+      "name" : "five",
+      "file" : "5.html"
+    }
+,
+    {
+      "name" : "six",
+      "file" : "6.html"
+    }
+,
+    {
+      "name" : "seven",
+      "file" : "7.html"
+    }
+,
+    {
+      "name" : "eight",
+      "file" : "8.html"
+    }
+,
+    {
+      "name" : "nine",
+      "file" : "9.html"
+    }
+,
+    {
+      "name" : "ten",
+      "file" : "10.html"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+body {
+  width: 100%;
+  height: 10000px;
+  margin: 0;
+  font-size: 0;
+}
+
+.container {
+  width: 100%;
+  position: fixed;
+  height: 100%;
+  background-image: url("pattern1.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+svg {
+  fill: #3d0b01;
+  position: fixed;
+  left: 100px;
+  top: 0px;
+}
+
+.s1 {
+  /*display: none;*/
+}
+
+.s2 {
+  /*display: none;*/
+}
