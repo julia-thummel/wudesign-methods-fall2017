@@ -2,7 +2,7 @@
 
 <head>
   <title>seven</title>
-  <link rel="stylesheet" type="text/css" href="styles-6.css">
+  <link rel="stylesheet" type="text/css" href="styles-7.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -12,8 +12,10 @@
   <body>
     <main>
 
+      <!-- <div class="circle" data-0="transform:scale(0); opacity:.5; left: 50%;" data-500="transform:scale(20); opacity:1; left: 150%;"></div> -->
+
       <div class="container">
-        <div class="s1 new">
+        <div class="s1 new" data-0="transform:scale(0); opacity:.5; left: 50%;" data-1000="transform:scale(20); opacity:1; left: 10%;">
           <svg viewBox="0 0 2000 2000">
             <path id="one" d="M149,117c66-30,129.5-32.5,210.5,7.5,90.52,44.7,89.5,125.5,62,154C368.35,333.59,311.35,270.3,308,349c-4,94-172,59-221-18C30.78,242.65,79.79,148.46,149,117Z">
               <animate id="animation-one" begin="indefinite" fill="freeze" attributeName="d" dur="700ms" to="M187,191c51,12,52.48-142.17,142-130,103,14,120,189,92.5,217.5C368.35,333.59,299.35,276.3,296,355c-4,94-158,83-212-6C29.68,259.47,113,173.59,187,191Z" />
@@ -23,7 +25,7 @@
 
         <div class="s2 new">
           <svg viewBox="0 0 2000 2000">
-            <path id="two" d="M187,191c51,12,52.48-142.17,142-130,103,14,120,189,92.5,217.5C368.35,333.59,299.35,276.3,296,355c-4,94-158,83-212-6C29.68,259.47,113,173.59,187,191Z">
+            <path data-0="transform: scale(0);" data-500="transform: scale(20);" id="two" d="M187,191c51,12,52.48-142.17,142-130,103,14,120,189,92.5,217.5C368.35,333.59,299.35,276.3,296,355c-4,94-158,83-212-6C29.68,259.47,113,173.59,187,191Z">
               <animate id="animation-two" begin="indefinite" fill="freeze" attributeName="d" dur="700ms" to="M168,105c77-30,99.48,77.83,189,90,103,14,107.5,108.5,80,137-53.15,55.09-104-32-242,59C92.29,458.73,74,293,176,270,362,228.07,97.16,132.6,168,105Z" />
             </path>
           </svg>
@@ -31,14 +33,14 @@
 
       <div class="s3 new">
         <svg viewBox="0 0 2000 2000">
-          <path id="three" d="M168,105c77-30,99.48,77.83,189,90,103,14,107.5,108.5,80,137-53.15,55.09-104-32-242,59C92.29,458.73,74,293,176,270,362,228.07,97.16,132.6,168,105Z">
+          <path data-0="transform: rotate(0deg);" data-100="transform: rotate(360deg);" id="three" d="M168,105c77-30,99.48,77.83,189,90,103,14,107.5,108.5,80,137-53.15,55.09-104-32-242,59C92.29,458.73,74,293,176,270,362,228.07,97.16,132.6,168,105Z">
             <animate id="animation-three" begin="indefinite" fill="freeze" attributeName="d" dur="700ms" to="M167,122c77-30,22.41,110.9,82,43,86-98,202.5,144.5,175,173-53.15,55.09-318.7,61.47-274,4,28-36,89.92-51.63,0-105C27,164,96.16,149.6,167,122Z" />
           </path>
         </svg>
       </div>
 
       <div class="s4 new">
-        <svg viewBox="0 0 2000 2000">
+        <svg viewBox="0 0 2000 2000" data-0="transform: rotate(0deg);" data-100="transform: rotate(360deg);">
           <path id="four" d="M149,117c66-30,129.5-32.5,210.5,7.5,90.52,44.7,89.5,125.5,62,154C368.35,333.59,311.35,270.3,308,349c-4,94-172,59-221-18C30.78,242.65,79.79,148.46,149,117Z">
             <animate id="animation-four" begin="indefinite" fill="freeze" attributeName="d" dur="700ms" to="M187,191c51,12,52.48-142.17,142-130,103,14,120,189,92.5,217.5C368.35,333.59,299.35,276.3,296,355c-4,94-158,83-212-6C29.68,259.47,113,173.59,187,191Z" />
           </path>
@@ -46,7 +48,7 @@
       </div>
 
       <div class="s5 new">
-        <svg viewBox="0 0 2000 2000">
+        <svg viewBox="0 0 2000 2000" data-0="transform: rotate(0deg);" data-100="transform: rotate(360deg);">
           <path id="five" d="M168,105c77-30,99.48,77.83,189,90,103,14,107.5,108.5,80,137-53.15,55.09-104-32-242,59C92.29,458.73,74,293,176,270,362,228.07,97.16,132.6,168,105Z">
             <animate id="animation-five" begin="indefinite" fill="freeze" attributeName="d" dur="700ms" to="M167,122c77-30,22.41,110.9,82,43,86-98,202.5,144.5,175,173-53.15,55.09-318.7,61.47-274,4,28-36,89.92-51.63,0-105C27,164,96.16,149.6,167,122Z" />
           </path>
@@ -54,7 +56,7 @@
       </div>
 
       <div class="s6 new">
-        <svg viewBox="0 0 2000 2000">
+        <svg viewBox="0 0 2000 2000" data-0="left: -800px;" data-100="left: 100px;">
           <path id="six" d="M149,117c66-30,129.5-32.5,210.5,7.5,90.52,44.7,89.5,125.5,62,154C368.35,333.59,311.35,270.3,308,349c-4,94-172,59-221-18C30.78,242.65,79.79,148.46,149,117Z">
             <animate id="animation-six" begin="indefinite" fill="freeze" attributeName="d" dur="700ms" to="M187,191c51,12,52.48-142.17,142-130,103,14,120,189,92.5,217.5C368.35,333.59,299.35,276.3,296,355c-4,94-158,83-212-6C29.68,259.47,113,173.59,187,191Z" />
           </path>
@@ -62,7 +64,7 @@
       </div>
 
       <div class="s7 new">
-        <svg viewBox="0 0 2000 2000">
+        <svg viewBox="0 0 2000 2000" data-0="left: -800px; top: -800px;" data-100="left: 100px; top: 300px;">
           <path id="seven" d="M187,191c51,12,52.48-142.17,142-130,103,14,120,189,92.5,217.5C368.35,333.59,299.35,276.3,296,355c-4,94-158,83-212-6C29.68,259.47,113,173.59,187,191Z">
             <animate id="animation-seven" begin="indefinite" fill="freeze" attributeName="d" dur="700ms" to="M168,105c77-30,99.48,77.83,189,90,103,14,107.5,108.5,80,137-53.15,55.09-104-32-242,59C92.29,458.73,74,293,176,270,362,228.07,97.16,132.6,168,105Z" />
           </path>
@@ -70,7 +72,7 @@
       </div>
 
       <div class="s8 new">
-        <svg viewBox="0 0 2000 2000">
+        <svg viewBox="0 0 2000 2000" data-0="transform:scale(0); opacity:.5; left: 900px; top: 800px;" data-1000="transform:scale(20); opacity:1; left: -100px; top: -100px;">
           <path id="eight" d="M168,105c77-30,99.48,77.83,189,90,103,14,107.5,108.5,80,137-53.15,55.09-104-32-242,59C92.29,458.73,74,293,176,270,362,228.07,97.16,132.6,168,105Z">
             <animate id="animation-eight" begin="indefinite" fill="freeze" attributeName="d" dur="700ms" to="M167,122c77-30,22.41,110.9,82,43,86-98,202.5,144.5,175,173-53.15,55.09-318.7,61.47-274,4,28-36,89.92-51.63,0-105C27,164,96.16,149.6,167,122Z" />
           </path>
@@ -80,7 +82,7 @@
 
 
     </main>
-      <script src="scripts-6.js"></script>
+      <script src="scripts-7.js"></script>
       <script src="randomColor.js"></script>
       <script type="text/javascript">
       var s = skrollr.init();
