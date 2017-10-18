@@ -1,6 +1,8 @@
 body {
   width: 100%;
   height: 10000px;
+  background-image: url("triangles.png");
+  background-repeat: none;
 }
 
 .shape{
