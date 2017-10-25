@@ -1,0 +1,125 @@
+body {
+  width: 100%;
+  height: 5000px;
+  margin: 0;
+  font-size: 0;
+  background: linear-gradient(#1f2233, #0a0001);
+}
+
+.container {
+  width: 100%;
+  position: fixed;
+  height: 100%;
+}
+
+svg {
+  fill: rgb(55, 190, 239);
+  position: fixed;
+}
+
+.bounce {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+}
+
+.circle {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  animation-name: move1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+/*.a {
+  animation-name: move1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}*/
+
+@keyframes move1 {
+    0% {top: 0px; filter: blur(1px);}
+    50% {top: 5px; filter: blur(10px);}
+    100% {top: 0px; filter: blur(1px);}
+}
+
+/*.b{
+  animation-name: move1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}*/
+
+/*@keyframes move2 {
+    0% {top: 0px; filter: blur(1px);}
+    50% {top: 5px; filter: blur(3px);}
+    100% {top: 0px; filter: blur(1px);}
+}*/
+
+
+.speed {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-color: blue;
+  border-radius: 100%;
+  transform-origin: 100px;
+  z-index: -300;
+}
+
+.lastCircle {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  background-color: #1f2233;
+}
+
+.s1 {
+  position: relative;
+  opacity: .3;
+  width: 100%;
+  height: 100%;
+  transform-origin: 100px;
+}
+
+.s2 {
+  position: relative;
+  opacity: .3;
+  width: 100%;
+  height: 100%;
+}
+
+.shape {
+  position: relative;
+  opacity: .5;
+  transform: scale(.5);
+}
+
+.border {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.border:before,
+.border:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.border:before {
+  background-position: 0 0, 0 100% ;
+  background-repeat: no-repeat;
+  background-size: 100% 20px;
+  background-image: linear-gradient(to right, #3acfd5 0%, #3a8ed5 100%), linear-gradient(to left, #3a4ed5 0%, #3a8ed5 100%);
+}
+.border:after {
+  background-position: 0 0, 100% 0;
+  background-repeat: no-repeat;
+  background-size: 20px 100%;
+  background-image: linear-gradient(to bottom, #3acfd5 0%, #3a8ed5 100%), linear-gradient(to top, #3a4ed5 0%, #3a8ed5 100%);
+}
