@@ -12,32 +12,32 @@
     }
 ,
     {
-      "name" : "three",
+      "name" : "blobs spin in place",
       "file" : "3.html"
     }
 ,
     {
-      "name" : "four",
+      "name" : "blobs scale/overlap/change gradient",
       "file" : "4.html"
     }
 ,
     {
-      "name" : "five",
+      "name" : "multiple blobs overlap",
       "file" : "5.html"
     }
 ,
     {
-      "name" : "six",
+      "name" : "background exploration 1",
       "file" : "6.html"
     }
 ,
     {
-      "name" : "seven",
+      "name" : "background exploration 2",
       "file" : "7.html"
     }
 ,
     {
-      "name" : "eight",
+      "name" : "blob moves from center",
       "file" : "8.html"
     }
 ,
