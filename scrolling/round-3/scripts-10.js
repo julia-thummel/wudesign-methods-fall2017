@@ -32,6 +32,10 @@ $(document).ready(function(){
     $(this).css("height", size);
   });
 
+  $(".speed").each(function(){
+    $(this).css("background-color", randomColor({hue: 'blue'}));
+  });
+
   $(".bounce").each(function(){
     $(this).css("left", Math.random()*1300);
     $(this).css("top", Math.random()*600);

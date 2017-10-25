@@ -34,6 +34,16 @@ svg {
   border-radius: 100%;
 }
 
+.speed {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-color: blue;
+  border-radius: 100%;
+  transform-origin: 100px;
+  z-index: -300;
+}
+
 @keyframes move {
     0% {top: 0px;}
     50% {top: 5px;}
@@ -57,7 +67,7 @@ svg {
 
 .shape {
   position: relative;
-  opacity: .3;
+  opacity: .5;
   transform: scale(.5);
 }
 
@@ -67,6 +77,7 @@ svg {
   height: 100%;
   box-sizing: border-box;
 }
+
 .border:before,
 .border:after {
   content: "";
