@@ -25,7 +25,14 @@ $(document).ready(function(){
   animationDFive = document.getElementById("animation-Dfive");
 
 
-  $(".circle").each(function(){
+  $(".circleA").each(function(){
+    var size = Math.random()*100
+    $(this).css("background-color", randomColor({hue: 'blue'}));
+    $(this).css("width", size);
+    $(this).css("height", size);
+  });
+
+  $(".circleB").each(function(){
     var size = Math.random()*100
     $(this).css("background-color", randomColor({hue: 'blue'}));
     $(this).css("width", size);

@@ -2,32 +2,32 @@
   "entrypoints" : [
 
     {
-      "name" : "one",
+      "name" : "circles animate seperately",
       "file" : "1.html"
     }
 ,
     {
-      "name" : "two",
+      "name" : "circles grow from center",
       "file" : "2.html"
     }
 ,
     {
-      "name" : "three",
+      "name" : "pacing",
       "file" : "3.html"
     }
 ,
     {
-      "name" : "four",
+      "name" : "random appearance",
       "file" : "4.html"
     }
 ,
     {
-      "name" : "five",
+      "name" : "fuzzy circles/too slow",
       "file" : "5.html"
     }
 ,
     {
-      "name" : "six",
+      "name" : "fuzzy circles alt",
       "file" : "6.html"
     }
 ,

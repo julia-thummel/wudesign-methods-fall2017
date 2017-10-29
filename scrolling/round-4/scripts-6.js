@@ -25,7 +25,14 @@ $(document).ready(function(){
   animationDFive = document.getElementById("animation-Dfive");
 
 
-  $(".circle").each(function(){
+  $(".circleA").each(function(){
+    var size = Math.random()*100
+    $(this).css("background-color", randomColor({hue: 'blue'}));
+    $(this).css("width", size);
+    $(this).css("height", size);
+  });
+
+  $(".circleB").each(function(){
     var size = Math.random()*100
     $(this).css("background-color", randomColor({hue: 'blue'}));
     $(this).css("width", size);
@@ -34,6 +41,8 @@ $(document).ready(function(){
 
   $(".speed").each(function(){
     $(this).css("background-color", randomColor({hue: 'blue'}));
+    $(this).css("left", Math.random()*1300);
+    $(this).css("top", Math.random()*600);
   });
 
   $(".bounce").each(function(){
@@ -223,4 +232,4 @@ $(document).ready(function(){
   window.addEventListener('scroll', myEfficientFn);
 
 
-  });
+});
