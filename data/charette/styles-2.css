@@ -1,0 +1,39 @@
+body {
+  width: 100%;
+  height: 800px;
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Crimson Text', serif;
+}
+
+.d1 {
+  width: 100%;
+  height: 50%;
+  position: relative;
+  display: inline-block;
+}
+
+p {
+  font-family: 'Crimson Text', serif;
+  font-size: 12pt;
+  color: #4e5696;
+}
+
+button.fetch {
+  border-radius: 50px;
+  width: 15%;
+  height: 15%;
+  position: relative;
+  display: inline-block;
+  background-color: #dee2fc;
+  border: 2px solid #8087ba;
+  left: 40%;
+  top: 40%;
+}
+
+.d2 {
+  width: 100%;
+  height: 50%;
+  position: relative;
+  display: inline-block;
+}

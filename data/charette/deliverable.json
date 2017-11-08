@@ -1,0 +1,54 @@
+{
+  "entrypoints" : [
+
+    {
+      "name" : "figuring it out pt.1",
+      "file" : "1.html"
+    }
+,
+    {
+      "name" : "figuring it out pt.2",
+      "file" : "2.html"
+    }
+,
+    {
+      "name" : "getting background colors",
+      "file" : "3.html"
+    }
+,
+    {
+      "name" : "creating styled divs",
+      "file" : "4.html"
+    }
+,
+    {
+      "name" : "separating styles from data",
+      "file" : "5.html"
+    }
+,
+    {
+      "name" : "six",
+      "file" : "6.html"
+    }
+,
+    {
+      "name" : "seven",
+      "file" : "7.html"
+    }
+,
+    {
+      "name" : "eight",
+      "file" : "8.html"
+    }
+,
+    {
+      "name" : "nine",
+      "file" : "9.html"
+    }
+,
+    {
+      "name" : "ten",
+      "file" : "10.html"
+    }
+  ]
+}
