@@ -40,18 +40,24 @@
           $.each(forecastData, function(i, day){
               var size = (day.high.fahrenheit - 69)/6;
               var opacity = (day.high.fahrenheit - 69)/ 6;
-              var text = $("<div>" + day.date.weekday + " " + day.high.fahrenheit + "</div>");
-              var bar = $("<div></div>");
+              var text = $("<div>" + day.date.weekday + " " + day.high.fahrenheit + " / " + day.low.fahrenheit + "</div>");
+              var highbar = $("<div></div>");
+              var lowbar = $("<div></div>");
               var row = $("<div class='row'></div>");
               text.addClass("text" + " " + i);
-              bar.addClass("bar" + " " + i);
-              bar.css({"background-color": "rgba(242, 75, 29," + opacity + ")"});
-              // bar.css({"width": size *750});
+              highbar.addClass("highbar" + " " + i);
+              lowbar.addClass("lowbar" + " " + i);
+              highbar.css({"background-color": "rgba(242, 75, 29," + opacity + ")"});
+              lowbar.css({"background-color": "rgba(51, 84, 247," + opacity + ")"});
               $(".d1").append(row);
               row.append(text);
-              row.append(bar);
+              row.append(highbar);
+              row.append(lowbar);
 
-              bar.each(function(){
+              highbar.each(function(){
+                $(this).animate({width: size *750}, {easing: "swing", queue: false, duration: 800});
+              });
+              lowbar.each(function(){
                 $(this).animate({width: size *750}, {easing: "swing", queue: false, duration: 800});
               });
           });
