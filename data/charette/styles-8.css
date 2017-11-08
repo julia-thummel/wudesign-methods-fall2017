@@ -1,0 +1,69 @@
+body {
+  width: 100%;
+  height: 800px;
+  margin: 0;
+  font-family: 'Crimson Text', serif;
+  background-image: url(losangeles.jpg);
+  background-size: 100%;
+}
+
+.d1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  vertical-align: top;
+  display: inline-block;
+  margin: 0;
+
+}
+
+/*.d2 {
+  width: 58%;
+  height: 100%;
+  position: relative;
+  vertical-align: top;
+  display: inline-block;
+  margin: 0;
+}*/
+
+p {
+  font-family: 'Crimson Text', serif;
+  font-size: 12pt;
+  color: #ffffff;
+}
+
+button.fetch {
+  border-radius: 50px;
+  width: 15%;
+  height: 10%;
+  position: absolute;
+  display: inline-block;
+  background-color: #bc2b03;
+  border: none;
+  left: 1%;
+  top: 2%;
+}
+
+.row {
+  /*white-space: nowrap;*/
+  margin: 1%;
+}
+
+.text {
+  width: 20%;
+  position: relative;
+  left: 20%;
+  top: 5%;
+  height: 10%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.bar {
+  /*width: 23%;*/
+  left: 10%;
+  position: relative;
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}

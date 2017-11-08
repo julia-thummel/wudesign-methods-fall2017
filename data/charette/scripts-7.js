@@ -40,11 +40,14 @@
           $.each(forecastData, function(i, day){
               var size = (day.high.fahrenheit - 69)/6;
               var opacity = (day.high.fahrenheit - 69)/ 6;
-              var row = $("<div>" + day.date.weekday + " " + day.high.fahrenheit + "</div>");
-              row.addClass("day" + " " + i);
-              row.css({"background-color": "rgba(242, 75, 29," + opacity + ")"});
-              row.css({"width": size *1000});
-              $(".d1").append(row);
+              var text = $("<div>" + day.date.weekday + " " + day.high.fahrenheit + "</div>");
+              var bar = $("<div></div>");
+              text.addClass("text" + " " + i);
+              bar.addClass("bar" + " " + i);
+              bar.css({"background-color": "rgba(242, 75, 29," + opacity + ")"});
+              bar.css({"width": size *750});
+              $(".d1").append(text);
+              $(".d2").append(bar);
           });
             // $.each(highTemps, function(i, field){
             //     $(".d2").append(field + " ");
