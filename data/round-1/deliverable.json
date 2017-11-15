@@ -2,52 +2,52 @@
   "entrypoints" : [
 
     {
-      "name" : "figuring it out pt.1",
+      "name" : "finally accessing data",
       "file" : "1.html"
     }
 ,
     {
-      "name" : "figuring it out pt.2",
+      "name" : "accessing specific data bit",
       "file" : "2.html"
     }
 ,
     {
-      "name" : "getting background colors",
+      "name" : "-",
       "file" : "3.html"
     }
 ,
     {
-      "name" : "creating styled divs",
+      "name" : "-",
       "file" : "4.html"
     }
 ,
     {
-      "name" : "separating styles from data",
+      "name" : "-",
       "file" : "5.html"
     }
 ,
     {
-      "name" : "changing multiple styles",
+      "name" : "-",
       "file" : "6.html"
     }
 ,
     {
-      "name" : "separating elements",
+      "name" : "-",
       "file" : "7.html"
     }
 ,
     {
-      "name" : "fixing separate elements",
+      "name" : "-",
       "file" : "8.html"
     }
 ,
     {
-      "name" : "animate",
+      "name" : "-",
       "file" : "9.html"
     }
 ,
     {
-      "name" : "low temps included",
+      "name" : "-",
       "file" : "10.html"
     }
   ]
