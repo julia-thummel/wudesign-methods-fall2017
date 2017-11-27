@@ -6,6 +6,8 @@ html {
 body {
   width: 100%;
   height: 100%;
+  margin: 0;
+  background-color: #30343a;
   overflow: hidden;
 }
 
@@ -42,9 +44,30 @@ body {
     100% { transform: rotate(360deg); }
 }
 
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -50;
+}
+
+.circle {
+  position: relative;
+  display: inline-block;
+  background-color: #ffffff;
+  border-radius: 100%;
+  filter: blur(1px);
+}
+
 .d1 {
   width: 100%;
   height: 100%;
+}
+
+@keyframes hover {
+    0% {background-position:0% 50%;}
+    50% {background-position:100% 50%;}
+    100% {background-position:0% 50%;}
 }
 
 .bubble {
@@ -55,10 +78,6 @@ body {
   margin: 1% 10% 1% 10%;
 }
 
-.hover {
-  background-color: #6881aa !important;
-}
-
 .text {
   display: inline-block;
   position: relative;
@@ -67,3 +86,11 @@ body {
   height: 20%;
   margin: 40% 15% 40% 15%;
 }
+
+/*.hover {
+  animation-name: hover;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  background: none;
+  background-size: 400% 400%;
+}*/

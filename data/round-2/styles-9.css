@@ -6,7 +6,9 @@ html {
 body {
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  margin: 0;
+  background-color: #30343a;
+  /*overflow: hidden;*/
 }
 
 .load {
@@ -42,28 +44,55 @@ body {
     100% { transform: rotate(360deg); }
 }
 
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -50;
+}
+
+.circle {
+  position: relative;
+  display: inline-block;
+  background-color: #ffffff;
+  border-radius: 100%;
+  filter: blur(1px);
+}
+
 .d1 {
   width: 100%;
   height: 100%;
 }
 
+@keyframes hover {
+    0% {background-position:0% 50%;}
+    50% {background-position:100% 50%;}
+    100% {background-position:0% 50%;}
+}
+
 .bubble {
   display: inline-block;
   width: 13%;
-  height: 27%;
+  height: 26%;
   border-radius: 100%;
-  margin: 1% 10% 1% 10%;
-}
-
-.hover {
-  background-color: #6881aa !important;
+  margin: 3% 10% 0% 10%;
 }
 
 .text {
-  display: inline-block;
+  display: block;
   position: relative;
   text-align: center;
   width: 70%;
   height: 20%;
   margin: 40% 15% 40% 15%;
+  z-index: 2;
+}
+
+img {
+  display: block;
+  position: relative;
+  transform:  scale(1.1);
+  top: -110%;
+  width: 100%;
+  height: 100%;
 }
