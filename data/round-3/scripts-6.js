@@ -4,7 +4,9 @@ $(document).ready(function(){
 
 
 // the intro
-  $(".load").delay(1500).animate({display: "none"}, 1500, "swing").fadeOut();
+  $(".load").delay(1900).animate({display: "none"}, 1900, "swing").fadeOut();
+  $(".finished").delay(1500).addClass("animate");
+  $(".finished").delay(1500).animate({display : "inline-block"}, 1500, "swing").fadeOut();
 
   $(".circle").each(function (){
     var coordinates = {"left": Math.random()*1300, "top": Math.random()*600}

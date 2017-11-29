@@ -20,24 +20,53 @@ body {
   background-color: #1e242d;
 }
 
+
+
 .loadingText {
-  font-family: 'Monoton', sans-serif;
+  font-family: 'EB Garamond', serif;
+  font-weight: 800;
+  /*font-family: 'Monoton', sans-serif;*/
   color: white;
-  position: relative;
-  left: 40%;
+  position: absolute;
+  left: 41%;
   top: 40%;
 }
 
+.containSpinner {
+  position: absolute;
+  left: 47%;
+  top: 53%;
+}
+
 .spinner {
-    position: relative;
-    left: 47%;
-    top: 45%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
     border: 10px solid #f3f3f3; /* Light grey */
     border-top: 10px solid #e84a27; /* Red */
     border-radius: 50%;
     width: 50px;
     height: 50px;
+    transform-origin: 50% 50%;
     animation: spin 1.5s linear infinite;
+}
+
+.finished {
+  position: absolute;
+  transform: scale(0);
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  background-color: #e84a27;
+  width: 70px;
+  height: 70px;
+  transform-origin: 50% 50%;
+  transition: transform 1s;
+  transition-delay: 3s;
+}
+
+.finished.animate {
+  transform: scale(30);
 }
 
 @keyframes spin {
@@ -61,7 +90,10 @@ body {
 }
 
 .header {
-  
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+  font-size: 30pt;
+  color: white;
 }
 
 .d1 {
