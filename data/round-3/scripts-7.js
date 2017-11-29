@@ -14,6 +14,8 @@ $(document).ready(function(){
     $(this).data("coordinates", coordinates)
   });
 
+  
+
   function move() {
     $(".circle").each(function (){
       var size = Math.random()*20;
@@ -29,18 +31,6 @@ $(document).ready(function(){
   move();
 
 
-  // jQuery(function($) {
-    //   var x,y;
-    //   $(".circle").each(function (){
-    //     $(".circle").mousemove(function(event) {
-    //       var offset = $(this).offset();
-    //       x = event.pageX- offset.left;
-    //       y = event.pageY- offset.top;
-    //       $(this).css({"left": x});
-    //       $(this).css({"top": y});
-    //   });
-    // });
-  // });
 
   var dataUrls = [
     'https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22chicago%2C%20il%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys',
@@ -227,12 +217,6 @@ $(document).ready(function(){
             console.log(g);
 
 
-            // if (cityName = "Chicago") {
-            //   if (!$(".Chicago").hasClass("hasIcon")) {
-            //     $(".Chicago").append(chicago);
-            //     $(".Chicago").addClass("hasIcon");
-            //   }
-            // }
 
             bubble.hover(function(){
                 $(this).children("img").css({
