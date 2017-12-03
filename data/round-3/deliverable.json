@@ -42,12 +42,12 @@
     }
 ,
     {
-      "name" : "fixing header",
+      "name" : "more styling header",
       "file" : "9.html"
     }
 ,
     {
-      "name" : "-",
+      "name" : "adding scroll button",
       "file" : "10.html"
     }
   ]
