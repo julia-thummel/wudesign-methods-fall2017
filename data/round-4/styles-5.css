@@ -1,0 +1,276 @@
+html {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: #30343a;
+  overflow-x: hidden;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'EB Garamond', serif;
+  font-size: 60pt;
+  font-weight: 400;
+  line-height: 60pt;
+}
+
+h2 {
+  margin: 0;
+  font-family: 'EB Garamond', serif;
+  font-size: 25pt;
+}
+
+p {
+  display: inline-block;
+  margin: 0;
+}
+
+.load {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 60;
+  background-color: #1e242d;
+}
+
+.loadingText {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 15pt;
+  color: white;
+  position: absolute;
+  left: 44%;
+  top: 41%;
+}
+
+.containSpinner {
+  position: absolute;
+  left: 47%;
+  top: 53%;
+}
+
+.spinner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: 10px solid #f3f3f3; /* Light grey */
+    border-top: 10px solid #e84a27; /* Red */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    transform-origin: 50% 50%;
+    animation: spin 1.5s linear infinite;
+}
+
+.finished {
+  position: absolute;
+  transform: scale(0);
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  background-color: #e84a27;
+  width: 70px;
+  height: 70px;
+  transform-origin: 50% 50%;
+  transition: transform 1s;
+  transition-delay: 3s;
+}
+
+.finished.animate {
+  transform: scale(30);
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -50;
+}
+
+.circle {
+  position: relative;
+  display: inline-block;
+  background-color: #ffffff;
+  border-radius: 100%;
+  filter: blur(1px);
+}
+
+.header {
+  margin: 0;
+  width: 100%;
+  height: 900px;
+  background: linear-gradient(rgba(77, 78, 81, 1), rgba(48, 52, 58, 0));
+}
+
+.title {
+  display: inline-block;
+  position: relative;
+  font-weight: 400;
+  left: 5%;
+  top: 5%;
+  border-top: 5px solid #e84a27;
+  width: 49%;
+  height: 27%;
+  color: white;
+}
+
+.menu {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12pt;
+  color: white;
+  position: relative;
+  left: 30%;
+  top: 5%;
+  margin: 0;
+  display: inline-block;
+  width: 50%;
+  height: 27%;
+}
+
+.today {
+  display: inline-block;
+}
+
+.about {
+  border-top: 5px solid #3eade0;
+  line-height: 32pt;
+  margin-right: 25px;
+}
+
+.about:hover {
+  border-top: 5px solid #0a6a96;
+  font-weight: 600;
+}
+
+.time, .date {
+  line-height: 32pt;
+  border-top: 5px solid #fcd425;
+}
+
+.time:hover, .date:hover {
+  border-top: 5px solid #c49f00;
+  font-weight: 600;
+}
+
+.banner {
+  display: inline-block;
+  position: relative;
+  font-weight: 400;
+  left: 15%;
+  width: 100%;
+  height: 50%;
+  color: white;
+}
+
+.arrow {
+  height: 10%;
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  transform: scale(.8);
+}
+
+.arrow:hover {
+  opacity: .8;
+}
+
+.d1 {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes hover {
+    0% {background-position:0% 50%;}
+    50% {background-position:100% 50%;}
+    100% {background-position:0% 50%;}
+}
+
+.bubble {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 13%;
+  height: 23%;
+  border-radius: 100%;
+  margin: 1% 20% 3% 0%;
+}
+
+.text {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 12pt;
+  color: white;
+  display: none;
+  position: relative;
+  text-align: center;
+  width: 70%;
+  height: 20%;
+  margin: 40% 15% 40% 15%;
+  z-index: 2;
+}
+
+img {
+  display: inline-block;
+  position: relative;
+  transform:  scale(1.1);
+  vertical-align: middle;
+  top: -10%;
+  width: 96%;
+  height: 96%;
+  margin: 2% 2% 2% 2%;
+}
+
+.window {
+  width: 50%;
+  height: 50%;
+  border-radius: 15px;
+  background-color: white;
+  display: inline-block;
+  position: fixed;
+  top: 200px;
+  left: 350px;
+}
+
+.close {
+  position: relative;
+  display: inline-block;
+  left: 5px;
+  top: 5px;
+  background-color: none;
+  outline: none;
+}
+
+.windowHead {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  left: 44%;
+  margin: 0;
+  font-family: 'EB Garamond', serif;
+  /*font-size: 60pt;*/
+  font-weight: 600;
+  /*line-height: 60pt;*/
+}
+
+.col1 {
+  width: 49%;
+  height: 20px;
+  display: inline-block;
+}
+
+.col2{
+  width: 49%;
+  height: 20px;
+  display: inline-block;
+}
