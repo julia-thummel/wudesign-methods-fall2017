@@ -223,6 +223,9 @@ $(document).ready(function(){
             bubble.css({"background": background});
             bubble.data("background", background);
 
+            var windSpeed = query.results.channel.wind.speed;
+            bubble.data("windSpeed", windSpeed);
+
 
 
 
@@ -283,6 +286,7 @@ $(document).ready(function(){
 
             var background = query.results.channel.item.condition.code;
             var descriptive = query.results.channel.item.condition.text;
+            bubble.data("conditions", descriptive);
             console.log(descriptive);
 
             var specGradient = conditions[background];
@@ -345,6 +349,14 @@ $(document).ready(function(){
           moveBig();
 
 
+          var high = query.results.channel.item.condition.temp;
+          bubble.data("high", high);
+
+          var rise = query.results.channel.astronomy.sunrise;
+          bubble.data("rise", rise);
+          var set = query.results.channel.astronomy.sunset;
+          bubble.data("set", set);
+
 
 
 
@@ -361,15 +373,23 @@ $(document).ready(function(){
         $( ".Chicago" ).click(function() {
           var color = $(this).data("background");
           var windowName = $("<h3>" + $(this).data("cityName") + "</h3>");
-          // var temp = $("<p>" + $(this).data("cityName") + "</p>");
-          // var conditions = $("<p>" + $(this).data("cityName") + "</p>");
-          // var conditions = $("<p>" + $(this).data("cityName") + "</p>");
+          var temp = $("<p class ='v'>" + $(this).data("high") + " degrees</p>");
+          var conditions = $("<p class ='v'>" + $(this).data("conditions") + "</p>");
+          var windSpeed = $("<p class ='v'>" + $(this).data("windSpeed") + " mph</p>");
+          var rise = $("<p class ='v'>" + $(this).data("rise") + "</p>");
+          var set = $("<p class ='v'>" + $(this).data("set") + "</p>");
           windowName.addClass("windowHead");
           $(".cityTitle").append(windowName);
+          $(".temp").append(temp);
+          $(".conditions").append(conditions);
+          $(".windSpeed").append(windSpeed);
+          $(".sunrise").append(rise);
+          $(".sunset").append(set);
           $(".windowHead").css({"border-top" : "5px solid " + color + ""});
           $(".window").show();
           $("button").click(function() {
             $("h3").remove(".windowHead");
+            $("p").remove(".v");
             $(".window").hide();
           });
         });
@@ -377,12 +397,23 @@ $(document).ready(function(){
         $( ".Denver" ).click(function() {
           var color = $(this).data("background");
           var windowName = $("<h3>" + $(this).data("cityName") + "</h3>");
+          var temp = $("<p class ='v'>" + $(this).data("high") + " degrees</p>");
+          var conditions = $("<p class ='v'>" + $(this).data("conditions") + "</p>");
+          var windSpeed = $("<p class ='v'>" + $(this).data("windSpeed") + " mph</p>");
+          var rise = $("<p class ='v'>" + $(this).data("rise") + "</p>");
+          var set = $("<p class ='v'>" + $(this).data("set") + "</p>");
           windowName.addClass("windowHead");
           $(".cityTitle").append(windowName);
+          $(".temp").append(temp);
+          $(".conditions").append(conditions);
+          $(".windSpeed").append(windSpeed);
+          $(".sunrise").append(rise);
+          $(".sunset").append(set);
           $(".windowHead").css({"border-top" : "5px solid " + color + ""});
           $(".window").show();
           $("button").click(function() {
             $("h3").remove(".windowHead");
+            $("p").remove(".v");
             $(".window").hide();
           });
         });
@@ -390,12 +421,23 @@ $(document).ready(function(){
         $( ".York" ).click(function() {
           var color = $(this).data("background");
           var windowName = $("<h3>" + $(this).data("cityName") + "</h3>");
+          var temp = $("<p class ='v'>" + $(this).data("high") + " degrees</p>");
+          var conditions = $("<p class ='v'>" + $(this).data("conditions") + "</p>");
+          var windSpeed = $("<p class ='v'>" + $(this).data("windSpeed") + " mph</p>");
+          var rise = $("<p class ='v'>" + $(this).data("rise") + "</p>");
+          var set = $("<p class ='v'>" + $(this).data("set") + "</p>");
           windowName.addClass("windowHead");
           $(".cityTitle").append(windowName);
+          $(".temp").append(temp);
+          $(".conditions").append(conditions);
+          $(".windSpeed").append(windSpeed);
+          $(".sunrise").append(rise);
+          $(".sunset").append(set);
           $(".windowHead").css({"border-top" : "5px solid " + color + ""});
           $(".window").show();
           $("button").click(function() {
             $("h3").remove(".windowHead");
+            $("p").remove(".v");
             $(".window").hide();
           });
         });
@@ -403,12 +445,23 @@ $(document).ready(function(){
         $( ".Orleans" ).click(function() {
           var color = $(this).data("background");
           var windowName = $("<h3>" + $(this).data("cityName") + "</h3>");
+          var temp = $("<p class ='v'>" + $(this).data("high") + " degrees</p>");
+          var conditions = $("<p class ='v'>" + $(this).data("conditions") + "</p>");
+          var windSpeed = $("<p class ='v'>" + $(this).data("windSpeed") + " mph</p>");
+          var rise = $("<p class ='v'>" + $(this).data("rise") + "</p>");
+          var set = $("<p class ='v'>" + $(this).data("set") + "</p>");
           windowName.addClass("windowHead");
           $(".cityTitle").append(windowName);
+          $(".temp").append(temp);
+          $(".conditions").append(conditions);
+          $(".windSpeed").append(windSpeed);
+          $(".sunrise").append(rise);
+          $(".sunset").append(set);
           $(".windowHead").css({"border-top" : "5px solid " + color + ""});
           $(".window").show();
           $("button").click(function() {
             $("h3").remove(".windowHead");
+            $("p").remove(".v");
             $(".window").hide();
           });
         });
@@ -416,12 +469,23 @@ $(document).ready(function(){
         $( ".Seattle" ).click(function() {
           var color = $(this).data("background");
           var windowName = $("<h3>" + $(this).data("cityName") + "</h3>");
+          var temp = $("<p class ='v'>" + $(this).data("high") + " degrees</p>");
+          var conditions = $("<p class ='v'>" + $(this).data("conditions") + "</p>");
+          var windSpeed = $("<p class ='v'>" + $(this).data("windSpeed") + " mph</p>");
+          var rise = $("<p class ='v'>" + $(this).data("rise") + "</p>");
+          var set = $("<p class ='v'>" + $(this).data("set") + "</p>");
           windowName.addClass("windowHead");
           $(".cityTitle").append(windowName);
+          $(".temp").append(temp);
+          $(".conditions").append(conditions);
+          $(".windSpeed").append(windSpeed);
+          $(".sunrise").append(rise);
+          $(".sunset").append(set);
           $(".windowHead").css({"border-top" : "5px solid " + color + ""});
           $(".window").show();
           $("button").click(function() {
             $("h3").remove(".windowHead");
+            $("p").remove(".v");
             $(".window").hide();
           });
         });
@@ -429,12 +493,23 @@ $(document).ready(function(){
         $( ".Francisco" ).click(function() {
           var color = $(this).data("background");
           var windowName = $("<h3>" + $(this).data("cityName") + "</h3>");
+          var temp = $("<p class ='v'>" + $(this).data("high") + " degrees</p>");
+          var conditions = $("<p class ='v'>" + $(this).data("conditions") + "</p>");
+          var windSpeed = $("<p class ='v'>" + $(this).data("windSpeed") + " mph</p>");
+          var rise = $("<p class ='v'>" + $(this).data("rise") + "</p>");
+          var set = $("<p class ='v'>" + $(this).data("set") + "</p>");
           windowName.addClass("windowHead");
           $(".cityTitle").append(windowName);
+          $(".temp").append(temp);
+          $(".conditions").append(conditions);
+          $(".windSpeed").append(windSpeed);
+          $(".sunrise").append(rise);
+          $(".sunset").append(set);
           $(".windowHead").css({"border-top" : "5px solid " + color + ""});
           $(".window").show();
           $("button").click(function() {
             $("h3").remove(".windowHead");
+            $("p").remove(".v");
             $(".window").hide();
           });
         });
@@ -442,12 +517,23 @@ $(document).ready(function(){
         $( ".Washington" ).click(function() {
           var color = $(this).data("background");
           var windowName = $("<h3>" + $(this).data("cityName") + "</h3>");
+          var temp = $("<p class ='v'>" + $(this).data("high") + " degrees</p>");
+          var conditions = $("<p class ='v'>" + $(this).data("conditions") + "</p>");
+          var windSpeed = $("<p class ='v'>" + $(this).data("windSpeed") + " mph</p>");
+          var rise = $("<p class ='v'>" + $(this).data("rise") + "</p>");
+          var set = $("<p class ='v'>" + $(this).data("set") + "</p>");
           windowName.addClass("windowHead");
           $(".cityTitle").append(windowName);
+          $(".temp").append(temp);
+          $(".conditions").append(conditions);
+          $(".windSpeed").append(windSpeed);
+          $(".sunrise").append(rise);
+          $(".sunset").append(set);
           $(".windowHead").css({"border-top" : "5px solid " + color + ""});
           $(".window").show();
           $("button").click(function() {
             $("h3").remove(".windowHead");
+            $("p").remove(".v");
             $(".window").hide();
           });
         });
@@ -455,12 +541,23 @@ $(document).ready(function(){
         $( ".Phoenix" ).click(function() {
           var color = $(this).data("background");
           var windowName = $("<h3>" + $(this).data("cityName") + "</h3>");
+          var temp = $("<p class ='v'>" + $(this).data("high") + " degrees</p>");
+          var conditions = $("<p class ='v'>" + $(this).data("conditions") + "</p>");
+          var windSpeed = $("<p class ='v'>" + $(this).data("windSpeed") + " mph</p>");
+          var rise = $("<p class ='v'>" + $(this).data("rise") + "</p>");
+          var set = $("<p class ='v'>" + $(this).data("set") + "</p>");
           windowName.addClass("windowHead");
           $(".cityTitle").append(windowName);
+          $(".temp").append(temp);
+          $(".conditions").append(conditions);
+          $(".windSpeed").append(windSpeed);
+          $(".sunrise").append(rise);
+          $(".sunset").append(set);
           $(".windowHead").css({"border-top" : "5px solid " + color + ""});
           $(".window").show();
           $("button").click(function() {
             $("h3").remove(".windowHead");
+            $("p").remove(".v");
             $(".window").hide();
           });
         });
@@ -468,12 +565,23 @@ $(document).ready(function(){
         $( ".Maui" ).click(function() {
           var color = $(this).data("background");
           var windowName = $("<h3>" + $(this).data("cityName") + "</h3>");
+          var temp = $("<p class ='v'>" + $(this).data("high") + " degrees</p>");
+          var conditions = $("<p class ='v'>" + $(this).data("conditions") + "</p>");
+          var windSpeed = $("<p class ='v'>" + $(this).data("windSpeed") + " mph</p>");
+          var rise = $("<p class ='v'>" + $(this).data("rise") + "</p>");
+          var set = $("<p class ='v'>" + $(this).data("set") + "</p>");
           windowName.addClass("windowHead");
           $(".cityTitle").append(windowName);
+          $(".temp").append(temp);
+          $(".conditions").append(conditions);
+          $(".windSpeed").append(windSpeed);
+          $(".sunrise").append(rise);
+          $(".sunset").append(set);
           $(".windowHead").css({"border-top" : "5px solid " + color + ""});
           $(".window").show();
           $("button").click(function() {
             $("h3").remove(".windowHead");
+            $("p").remove(".v");
             $(".window").hide();
           });
         });

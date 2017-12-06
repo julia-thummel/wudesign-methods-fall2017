@@ -273,13 +273,29 @@ img {
 }
 
 .col1 {
-  width: 49%;
+  width: 30%;
   height: 20px;
   display: inline-block;
+  position: relative;
+  top: 180px;
+  left: 20%;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14pt;
+  line-height: 30pt;
 }
 
 .col2{
-  width: 49%;
+  width: 30%;
   height: 20px;
   display: inline-block;
+  position: relative;
+  top: 180px;
+  left: 20%;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14pt;
+  line-height: 30pt;
 }
