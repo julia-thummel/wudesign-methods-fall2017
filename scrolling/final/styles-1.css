@@ -3,7 +3,7 @@ body {
   height: 3000px;
   margin: 0;
   font-size: 0;
-  background: linear-gradient(#1f2233, #0a0001);
+  background: linear-gradient(#d3efff, #173360, #173360, #242830, #242830);
 }
 
 .container {
@@ -76,7 +76,7 @@ svg {
   background-color: blue;
   border-radius: 100%;
   z-index: -300;
-  background-color: #1f2233;
+  background-color: #173360;
 }
 
 .speed1 {
